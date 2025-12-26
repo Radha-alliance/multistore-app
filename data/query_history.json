@@ -1,5 +1,257 @@
 [
   {
+    "id": "query_1766726690128_0ogrioqgs",
+    "timestamp": "2025-12-26T05:24:50.128Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 86.57,
+      "cpuTime": 51.94,
+      "latency": 35.57,
+      "memoryUsed": 468952,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766726690127_bbkfleug9",
+    "timestamp": "2025-12-26T05:24:50.127Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 86.57,
+      "cpuTime": 51.94,
+      "latency": 35.57,
+      "memoryUsed": 468952,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766726689635_z28bm9hwy",
+    "timestamp": "2025-12-26T05:24:49.635Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 202.9,
+      "cpuTime": 121.74,
+      "latency": 54.11,
+      "memoryUsed": 0,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766726689634_wivilr5mo",
+    "timestamp": "2025-12-26T05:24:49.634Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 202.9,
+      "cpuTime": 121.74,
+      "latency": 54.11,
+      "memoryUsed": 0,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766726689026_mdsl99mvj",
+    "timestamp": "2025-12-26T05:24:49.026Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 20.34,
+      "cpuTime": 12.21,
+      "latency": 53.94,
+      "memoryUsed": 211616,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766726689025_dxmtr523d",
+    "timestamp": "2025-12-26T05:24:49.025Z",
+    "queryText": "db.accounts.find({})",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 20.34,
+      "cpuTime": 12.21,
+      "latency": 53.94,
+      "memoryUsed": 211616,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766726674009_3iddmhtqh",
+    "timestamp": "2025-12-26T05:24:34.009Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 202.75,
+      "cpuTime": 121.65,
+      "latency": 37.05,
+      "memoryUsed": 53768,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766726674001_7vyieucsg",
+    "timestamp": "2025-12-26T05:24:34.001Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 202.75,
+      "cpuTime": 121.65,
+      "latency": 37.05,
+      "memoryUsed": 53768,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766723940162_8blp1bgvz",
+    "timestamp": "2025-12-26T04:39:00.162Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 94.02,
+      "cpuTime": 56.41,
+      "latency": 42.04,
+      "memoryUsed": 469016,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766723940159_yvvf69ppc",
+    "timestamp": "2025-12-26T04:39:00.159Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 94.02,
+      "cpuTime": 56.41,
+      "latency": 42.04,
+      "memoryUsed": 469016,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766723939678_dm5ga2itd",
+    "timestamp": "2025-12-26T04:38:59.678Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 193.35,
+      "cpuTime": 116.01,
+      "latency": 35.14,
+      "memoryUsed": 41064,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766723939677_ybw8de553",
+    "timestamp": "2025-12-26T04:38:59.677Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 193.35,
+      "cpuTime": 116.01,
+      "latency": 35.14,
+      "memoryUsed": 41064,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766723939090_ainwwf06j",
+    "timestamp": "2025-12-26T04:38:59.090Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 20.13,
+      "cpuTime": 12.08,
+      "latency": 49.51,
+      "memoryUsed": 216856,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766723939089_bk6myk8yd",
+    "timestamp": "2025-12-26T04:38:59.089Z",
+    "queryText": "db.accounts.find({})",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 20.13,
+      "cpuTime": 12.08,
+      "latency": 49.51,
+      "memoryUsed": 216856,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
     "id": "query_1766723929873_qvfayvtmp",
     "timestamp": "2025-12-26T04:38:49.873Z",
     "queryText": "SELECT * FROM accounts;",
@@ -2952,51 +3204,15 @@
     }
   },
   {
-    "id": "query_1766723939089_bk6myk8yd",
-    "timestamp": "2025-12-26T04:38:59.089Z",
-    "queryText": "db.accounts.find({})",
-    "database": "mongo",
-    "metrics": {
-      "executionTime": 20.13,
-      "cpuTime": 12.08,
-      "latency": 49.51,
-      "memoryUsed": 216856,
-      "rowsAffected": 0
-    },
-    "result": {
-      "rowCount": 5,
-      "success": true,
-      "error": null
-    }
-  },
-  {
-    "id": "query_1766723939090_ainwwf06j",
-    "timestamp": "2025-12-26T04:38:59.090Z",
-    "queryText": "SELECT * FROM accounts;",
-    "database": "mongo",
-    "metrics": {
-      "executionTime": 20.13,
-      "cpuTime": 12.08,
-      "latency": 49.51,
-      "memoryUsed": 216856,
-      "rowsAffected": 0
-    },
-    "result": {
-      "rowCount": 5,
-      "success": true,
-      "error": null
-    }
-  },
-  {
-    "id": "query_1766723939677_ybw8de553",
-    "timestamp": "2025-12-26T04:38:59.677Z",
-    "queryText": "SELECT * FROM accounts;",
+    "id": "query_1766730655316_toj2wyjkb",
+    "timestamp": "2025-12-26T06:30:55.316Z",
+    "queryText": "select * from accounts;",
     "database": "postgres",
     "metrics": {
-      "executionTime": 193.35,
-      "cpuTime": 116.01,
-      "latency": 35.14,
-      "memoryUsed": 41064,
+      "executionTime": 202.23,
+      "cpuTime": 121.34,
+      "latency": 9.39,
+      "memoryUsed": 66592,
       "rowsAffected": 0
     },
     "result": {
@@ -3006,55 +3222,19 @@
     }
   },
   {
-    "id": "query_1766723939678_dm5ga2itd",
-    "timestamp": "2025-12-26T04:38:59.678Z",
-    "queryText": "SELECT * FROM accounts;",
+    "id": "query_1766730655318_d5twxjhle",
+    "timestamp": "2025-12-26T06:30:55.318Z",
+    "queryText": "select * from accounts;",
     "database": "postgres",
     "metrics": {
-      "executionTime": 193.35,
-      "cpuTime": 116.01,
-      "latency": 35.14,
-      "memoryUsed": 41064,
+      "executionTime": 202.23,
+      "cpuTime": 121.34,
+      "latency": 9.39,
+      "memoryUsed": 66592,
       "rowsAffected": 0
     },
     "result": {
       "rowCount": 5,
-      "success": true,
-      "error": null
-    }
-  },
-  {
-    "id": "query_1766723940159_yvvf69ppc",
-    "timestamp": "2025-12-26T04:39:00.159Z",
-    "queryText": "SELECT * FROM accounts;",
-    "database": "redis",
-    "metrics": {
-      "executionTime": 94.02,
-      "cpuTime": 56.41,
-      "latency": 42.04,
-      "memoryUsed": 469016,
-      "rowsAffected": 0
-    },
-    "result": {
-      "rowCount": 0,
-      "success": true,
-      "error": null
-    }
-  },
-  {
-    "id": "query_1766723940162_8blp1bgvz",
-    "timestamp": "2025-12-26T04:39:00.162Z",
-    "queryText": "SELECT * FROM accounts;",
-    "database": "redis",
-    "metrics": {
-      "executionTime": 94.02,
-      "cpuTime": 56.41,
-      "latency": 42.04,
-      "memoryUsed": 469016,
-      "rowsAffected": 0
-    },
-    "result": {
-      "rowCount": 0,
       "success": true,
       "error": null
     }

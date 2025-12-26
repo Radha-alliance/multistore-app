@@ -398,6 +398,66 @@
               "memoryUsed": 41064,
               "rowsAffected": 0
             }
+          },
+          {
+            "timestamp": "2025-12-26T05:24:34.001Z",
+            "metrics": {
+              "executionTime": 202.75,
+              "cpuTime": 121.65,
+              "latency": 37.05,
+              "memoryUsed": 53768,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-26T05:24:34.009Z",
+            "metrics": {
+              "executionTime": 202.75,
+              "cpuTime": 121.65,
+              "latency": 37.05,
+              "memoryUsed": 53768,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-26T05:24:49.634Z",
+            "metrics": {
+              "executionTime": 202.9,
+              "cpuTime": 121.74,
+              "latency": 54.11,
+              "memoryUsed": 0,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-26T05:24:49.635Z",
+            "metrics": {
+              "executionTime": 202.9,
+              "cpuTime": 121.74,
+              "latency": 54.11,
+              "memoryUsed": 0,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-26T06:30:55.316Z",
+            "metrics": {
+              "executionTime": 202.23,
+              "cpuTime": 121.34,
+              "latency": 9.39,
+              "memoryUsed": 66592,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-26T06:30:55.318Z",
+            "metrics": {
+              "executionTime": 202.23,
+              "cpuTime": 121.34,
+              "latency": 9.39,
+              "memoryUsed": 66592,
+              "rowsAffected": 0
+            }
           }
         ],
         "mongo": [
@@ -700,6 +760,16 @@
               "memoryUsed": 216856,
               "rowsAffected": 0
             }
+          },
+          {
+            "timestamp": "2025-12-26T05:24:49.026Z",
+            "metrics": {
+              "executionTime": 20.34,
+              "cpuTime": 12.21,
+              "latency": 53.94,
+              "memoryUsed": 211616,
+              "rowsAffected": 0
+            }
           }
         ],
         "redis": [
@@ -822,86 +892,106 @@
               "memoryUsed": 469016,
               "rowsAffected": 0
             }
+          },
+          {
+            "timestamp": "2025-12-26T05:24:50.127Z",
+            "metrics": {
+              "executionTime": 86.57,
+              "cpuTime": 51.94,
+              "latency": 35.57,
+              "memoryUsed": 468952,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-26T05:24:50.129Z",
+            "metrics": {
+              "executionTime": 86.57,
+              "cpuTime": 51.94,
+              "latency": 35.57,
+              "memoryUsed": 468952,
+              "rowsAffected": 0
+            }
           }
         ]
       },
       "averageMetrics": {
         "postgres": {
           "executionTime": {
-            "avg": 277.995625,
+            "avg": 266.0952631578947,
             "min": 0.39,
             "max": 1916.18,
-            "variance": 427.75868901123374
+            "variance": 393.4992054879751
           },
           "cpuTime": {
-            "avg": 166.79625,
+            "avg": 159.65631578947364,
             "min": 0.23,
             "max": 1149.71,
-            "variance": 256.656105466902
+            "variance": 236.10029417067494
           },
           "latency": {
-            "avg": 22.374375,
+            "avg": 24.133684210526315,
             "min": 7.98,
-            "max": 48.98,
-            "variance": 12.229724020163944
+            "max": 54.11,
+            "variance": 14.002571271593887
           },
           "memoryUsed": {
-            "avg": 152220,
-            "min": 22024,
+            "avg": 134520,
+            "min": 0,
             "max": 994552,
-            "variance": 251160.40205414547
+            "variance": 234357.8157262949
           }
         },
         "mongo": {
           "executionTime": {
-            "avg": 3.305333333333334,
+            "avg": 3.85483870967742,
             "min": 0.09,
             "max": 58.24,
-            "variance": 10.826009647551995
+            "variance": 11.067088340156328
           },
           "cpuTime": {
-            "avg": 1.9840000000000002,
+            "avg": 2.3138709677419356,
             "min": 0.05,
             "max": 34.94,
-            "variance": 6.49480027919771
+            "variance": 6.6397404134155895
           },
           "latency": {
-            "avg": 23.15666666666666,
+            "avg": 24.149677419354834,
             "min": 8.98,
-            "max": 49.51,
-            "variance": 11.52187552248138
+            "max": 53.94,
+            "variance": 12.571927119930537
           },
           "memoryUsed": {
-            "avg": 67528.26666666666,
+            "avg": 72176.25806451614,
             "min": 0,
             "max": 330848,
-            "variance": 105953.30204542419
+            "variance": 107294.38291853346
           }
         },
         "redis": {
           "executionTime": {
-            "avg": 95.97666666666665,
+            "avg": 94.63285714285712,
             "min": 0.06,
             "max": 181.99,
-            "variance": 73.73156146153121
+            "variance": 68.34147824695916
           },
           "cpuTime": {
-            "avg": 57.586666666666645,
+            "avg": 56.77999999999999,
             "min": 0.04,
             "max": 109.19,
-            "variance": 44.23600029639007
+            "variance": 41.00221631640347
           },
           "latency": {
-            "avg": 33.375,
+            "avg": 33.68857142857143,
             "min": 21.25,
             "max": 42.16,
-            "variance": 8.170028049727451
+            "variance": 7.602874322201023
           },
           "memoryUsed": {
-            "avg": 288754.6666666667,
+            "avg": 314497.14285714284,
             "min": 0,
             "max": 471840,
-            "variance": 210559.15043732699
+            "variance": 204884.38843645353
           }
         }
       }
@@ -1486,6 +1576,16 @@
               "memoryUsed": 216856,
               "rowsAffected": 0
             }
+          },
+          {
+            "timestamp": "2025-12-26T05:24:49.025Z",
+            "metrics": {
+              "executionTime": 20.34,
+              "cpuTime": 12.21,
+              "latency": 53.94,
+              "memoryUsed": 211616,
+              "rowsAffected": 0
+            }
           }
         ],
         "postgres": [
@@ -1536,28 +1636,28 @@
       "averageMetrics": {
         "mongo": {
           "executionTime": {
-            "avg": 84.45,
+            "avg": 75.29142857142857,
             "min": 2.81,
             "max": 210.79,
-            "variance": 91.19079577091831
+            "variance": 87.35600681424611
           },
           "cpuTime": {
-            "avg": 50.669999999999995,
+            "avg": 45.17571428571428,
             "min": 1.68,
             "max": 126.48,
-            "variance": 54.71868876352941
+            "variance": 52.41683313515199
           },
           "latency": {
-            "avg": 34.10666666666666,
+            "avg": 36.94,
             "min": 22,
-            "max": 49.51,
-            "variance": 11.919373119235573
+            "max": 53.94,
+            "variance": 13.036188093150542
           },
           "memoryUsed": {
-            "avg": 347633.3333333333,
+            "avg": 328202.28571428574,
             "min": 179576,
             "max": 635168,
-            "variance": 203927.9906067063
+            "variance": 194707.6591799792
           }
         },
         "postgres": {

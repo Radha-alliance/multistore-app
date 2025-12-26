@@ -2,32 +2,32 @@
   "aggregated": {
     "read": {
       "postgres": {
-        "cpu": 269.9,
-        "exec": 1592.57,
-        "latency": 1329.8,
+        "cpu": 302.42,
+        "exec": 40439.09,
+        "latency": 4088.56,
         "serverCpuMs": null
       },
       "mongo": {
-        "cpu": 185.36,
-        "exec": 182.91,
-        "latency": 27.33,
+        "cpu": 117.36,
+        "exec": 164.31,
+        "latency": 36.13,
         "serverCpuMs": null
       },
       "redis": {
-        "cpu": 213.83,
-        "exec": 198.74,
-        "latency": 27.2,
+        "cpu": 109.32,
+        "exec": 116.32,
+        "latency": 33.49,
         "serverCpuMs": null
       }
     },
     "read_score": [
       {
-        "store": "mongo",
-        "score": 0.27818611765478046
+        "store": "redis",
+        "score": 0.12655686881104383
       },
       {
-        "store": "redis",
-        "score": 0.3172984211730178
+        "store": "mongo",
+        "score": 0.1362006544889593
       },
       {
         "store": "postgres",
@@ -36,32 +36,32 @@
     ],
     "analytic": {
       "postgres": {
-        "cpu": 338.33,
-        "exec": 40892.57,
-        "latency": 3989.59,
+        "cpu": 319.42,
+        "exec": 9778.1,
+        "latency": 4106.01,
         "serverCpuMs": null
       },
       "mongo": {
-        "cpu": 116.9,
-        "exec": 137.62,
-        "latency": 36.08,
+        "cpu": 175.44,
+        "exec": 120.12,
+        "latency": 17.57,
         "serverCpuMs": null
       },
       "redis": {
-        "cpu": 106.61,
-        "exec": 278.18,
-        "latency": 249.16,
+        "cpu": 187.22,
+        "exec": 123.73,
+        "latency": 18.98,
         "serverCpuMs": null
       }
     },
     "analytic_score": [
       {
         "store": "mongo",
-        "score": 0.12157196946216928
+        "score": 0.192209489747599
       },
       {
         "store": "redis",
-        "score": 0.12999045566000642
+        "score": 0.20498362182011667
       },
       {
         "store": "postgres",
@@ -70,42 +70,42 @@
     ],
     "scan": {
       "postgres": {
-        "cpu": 301.26,
-        "exec": 9655.29,
-        "latency": 3936.78,
+        "cpu": 232.97,
+        "exec": 175.01,
+        "latency": 15.95,
         "serverCpuMs": null
       },
       "mongo": {
-        "cpu": 189.47,
-        "exec": 128.35,
-        "latency": 15.97,
+        "cpu": 162.45,
+        "exec": 129.01,
+        "latency": 19.97,
         "serverCpuMs": null
       },
       "redis": {
-        "cpu": 176.68,
-        "exec": 120.72,
-        "latency": 17.89,
+        "cpu": 188.17,
+        "exec": 136.21,
+        "latency": 22.52,
         "serverCpuMs": null
       }
     },
     "scan_score": [
       {
-        "store": "redis",
-        "score": 0.20502546743937555
+        "store": "mongo",
+        "score": 0.7729773419575741
       },
       {
-        "store": "mongo",
-        "score": 0.21956001060960836
+        "store": "redis",
+        "score": 0.8614566575567644
       },
       {
         "store": "postgres",
-        "score": 1
+        "score": 0.9037255772646536
       }
     ]
   },
   "totals": {
-    "postgres": 3,
-    "mongo": 0.6193180977265581,
-    "redis": 0.6523143442723998
+    "postgres": 2.9037255772646535,
+    "mongo": 1.1013874861941324,
+    "redis": 1.192997148187925
   }
 }
