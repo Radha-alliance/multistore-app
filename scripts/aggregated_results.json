@@ -1,0 +1,111 @@
+{
+  "aggregated": {
+    "read": {
+      "postgres": {
+        "cpu": 269.9,
+        "exec": 1592.57,
+        "latency": 1329.8,
+        "serverCpuMs": null
+      },
+      "mongo": {
+        "cpu": 185.36,
+        "exec": 182.91,
+        "latency": 27.33,
+        "serverCpuMs": null
+      },
+      "redis": {
+        "cpu": 213.83,
+        "exec": 198.74,
+        "latency": 27.2,
+        "serverCpuMs": null
+      }
+    },
+    "read_score": [
+      {
+        "store": "mongo",
+        "score": 0.27818611765478046
+      },
+      {
+        "store": "redis",
+        "score": 0.3172984211730178
+      },
+      {
+        "store": "postgres",
+        "score": 1
+      }
+    ],
+    "analytic": {
+      "postgres": {
+        "cpu": 338.33,
+        "exec": 40892.57,
+        "latency": 3989.59,
+        "serverCpuMs": null
+      },
+      "mongo": {
+        "cpu": 116.9,
+        "exec": 137.62,
+        "latency": 36.08,
+        "serverCpuMs": null
+      },
+      "redis": {
+        "cpu": 106.61,
+        "exec": 278.18,
+        "latency": 249.16,
+        "serverCpuMs": null
+      }
+    },
+    "analytic_score": [
+      {
+        "store": "mongo",
+        "score": 0.12157196946216928
+      },
+      {
+        "store": "redis",
+        "score": 0.12999045566000642
+      },
+      {
+        "store": "postgres",
+        "score": 1
+      }
+    ],
+    "scan": {
+      "postgres": {
+        "cpu": 301.26,
+        "exec": 9655.29,
+        "latency": 3936.78,
+        "serverCpuMs": null
+      },
+      "mongo": {
+        "cpu": 189.47,
+        "exec": 128.35,
+        "latency": 15.97,
+        "serverCpuMs": null
+      },
+      "redis": {
+        "cpu": 176.68,
+        "exec": 120.72,
+        "latency": 17.89,
+        "serverCpuMs": null
+      }
+    },
+    "scan_score": [
+      {
+        "store": "redis",
+        "score": 0.20502546743937555
+      },
+      {
+        "store": "mongo",
+        "score": 0.21956001060960836
+      },
+      {
+        "store": "postgres",
+        "score": 1
+      }
+    ]
+  },
+  "totals": {
+    "postgres": 3,
+    "mongo": 0.6193180977265581,
+    "redis": 0.6523143442723998
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "latency-first": {
+    "weights": {
+      "cpu": 0.1,
+      "exec": 0.3,
+      "latency": 0.6
+    },
+    "totals": {
+      "mongo": 0.22576635718401017,
+      "redis": 0.26508325477090877,
+      "postgres": 3
+    },
+    "ranking": [
+      {
+        "store": "mongo",
+        "total": 0.225766
+      },
+      {
+        "store": "redis",
+        "total": 0.265083
+      },
+      {
+        "store": "postgres",
+        "total": 3
+      }
+    ]
+  },
+  "exec-first": {
+    "weights": {
+      "cpu": 0.1,
+      "exec": 0.6,
+      "latency": 0.3
+    },
+    "totals": {
+      "mongo": 0.2551239418706205,
+      "redis": 0.2820772458288198,
+      "postgres": 3
+    },
+    "ranking": [
+      {
+        "store": "mongo",
+        "total": 0.255124
+      },
+      {
+        "store": "redis",
+        "total": 0.282077
+      },
+      {
+        "store": "postgres",
+        "total": 3
+      }
+    ]
+  },
+  "cpu-first": {
+    "weights": {
+      "cpu": 0.6,
+      "exec": 0.2,
+      "latency": 0.2
+    },
+    "totals": {
+      "mongo": 1.029763791609071,
+      "redis": 1.0626096127426463,
+      "postgres": 3
+    },
+    "ranking": [
+      {
+        "store": "mongo",
+        "total": 1.029764
+      },
+      {
+        "store": "redis",
+        "total": 1.06261
+      },
+      {
+        "store": "postgres",
+        "total": 3
+      }
+    ]
+  }
+}

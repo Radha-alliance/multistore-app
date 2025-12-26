@@ -1,0 +1,20 @@
+{
+  "postgres": {
+    "cpu": 186.46,
+    "exec": 16989.28,
+    "latency": 3636.64,
+    "serverCpuMs": null
+  },
+  "mongo": {
+    "cpu": 47.49,
+    "exec": 76.07,
+    "latency": 21.86,
+    "serverCpuMs": null
+  },
+  "redis": {
+    "cpu": 42.64,
+    "exec": 417.21,
+    "latency": 406.88,
+    "serverCpuMs": null
+  }
+}

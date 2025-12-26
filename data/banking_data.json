@@ -1,0 +1,121 @@
+{
+  "accounts": [
+    {
+      "id": "ACC001",
+      "customer_id": "CUST001",
+      "account_type": "Checking",
+      "balance": 5250.75,
+      "currency": "USD",
+      "status": "Active",
+      "created_at": "2023-01-15",
+      "last_transaction": "2024-12-20"
+    },
+    {
+      "id": "ACC002",
+      "customer_id": "CUST001",
+      "account_type": "Savings",
+      "balance": 25000.00,
+      "currency": "USD",
+      "status": "Active",
+      "created_at": "2023-02-20",
+      "last_transaction": "2024-12-18"
+    },
+    {
+      "id": "ACC003",
+      "customer_id": "CUST002",
+      "account_type": "Checking",
+      "balance": 3500.50,
+      "currency": "USD",
+      "status": "Active",
+      "created_at": "2023-03-10",
+      "last_transaction": "2024-12-21"
+    },
+    {
+      "id": "ACC004",
+      "customer_id": "CUST002",
+      "account_type": "Business",
+      "balance": 150000.00,
+      "currency": "USD",
+      "status": "Active",
+      "created_at": "2023-04-05",
+      "last_transaction": "2024-12-19"
+    },
+    {
+      "id": "ACC005",
+      "customer_id": "CUST003",
+      "account_type": "Checking",
+      "balance": 1200.25,
+      "currency": "USD",
+      "status": "Active",
+      "created_at": "2023-05-12",
+      "last_transaction": "2024-12-21"
+    }
+  ],
+  "transactions": [
+    {
+      "id": "TXN001",
+      "account_id": "ACC001",
+      "type": "Debit",
+      "amount": 150.00,
+      "description": "Grocery Store",
+      "timestamp": "2024-12-20T10:30:00Z",
+      "status": "Completed"
+    },
+    {
+      "id": "TXN002",
+      "account_id": "ACC001",
+      "type": "Credit",
+      "amount": 2500.00,
+      "description": "Salary Deposit",
+      "timestamp": "2024-12-15T09:00:00Z",
+      "status": "Completed"
+    },
+    {
+      "id": "TXN003",
+      "account_id": "ACC003",
+      "type": "Debit",
+      "amount": 500.00,
+      "description": "Electric Bill",
+      "timestamp": "2024-12-21T14:15:00Z",
+      "status": "Completed"
+    },
+    {
+      "id": "TXN004",
+      "account_id": "ACC004",
+      "type": "Credit",
+      "amount": 50000.00,
+      "description": "Client Payment",
+      "timestamp": "2024-12-19T11:45:00Z",
+      "status": "Completed"
+    }
+  ],
+  "customers": [
+    {
+      "id": "CUST001",
+      "name": "John Smith",
+      "email": "john.smith@email.com",
+      "phone": "+1-555-0101",
+      "date_of_birth": "1985-03-15",
+      "country": "USA",
+      "account_status": "Active"
+    },
+    {
+      "id": "CUST002",
+      "name": "Sarah Johnson",
+      "email": "sarah.johnson@email.com",
+      "phone": "+1-555-0102",
+      "date_of_birth": "1990-07-22",
+      "country": "USA",
+      "account_status": "Active"
+    },
+    {
+      "id": "CUST003",
+      "name": "Michael Brown",
+      "email": "michael.brown@email.com",
+      "phone": "+1-555-0103",
+      "date_of_birth": "1988-11-08",
+      "country": "USA",
+      "account_status": "Active"
+    }
+  ]
+}

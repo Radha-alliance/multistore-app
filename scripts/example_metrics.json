@@ -1,0 +1,5 @@
+{
+  "postgres": { "cpu": 35.2, "exec": 12.3, "latency": 24.5 },
+  "mongo": { "cpu": 28.7, "exec": 15.6, "latency": 40.2 },
+  "redis": { "cpu": 10.1, "exec": 2.8, "latency": 1.2 }
+}

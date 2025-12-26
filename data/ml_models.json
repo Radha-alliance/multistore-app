@@ -1,0 +1,2699 @@
+{
+  "queryPatterns": {
+    "q_736012213": {
+      "queryText": "SELECT * FROM accounts LIMIT 3;",
+      "executions": {
+        "postgres": [
+          {
+            "timestamp": "2025-12-25T20:21:35.901Z",
+            "metrics": {
+              "executionTime": 1.45,
+              "cpuTime": 0.87,
+              "latency": 9.74,
+              "memoryUsed": 23944,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T20:21:35.905Z",
+            "metrics": {
+              "executionTime": 1.45,
+              "cpuTime": 0.87,
+              "latency": 9.74,
+              "memoryUsed": 23944,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T20:21:44.353Z",
+            "metrics": {
+              "executionTime": 0.29,
+              "cpuTime": 0.18,
+              "latency": 49.57,
+              "memoryUsed": 7280,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T20:21:44.354Z",
+            "metrics": {
+              "executionTime": 0.29,
+              "cpuTime": 0.18,
+              "latency": 49.57,
+              "memoryUsed": 7280,
+              "rowsAffected": 0
+            }
+          }
+        ]
+      },
+      "averageMetrics": {
+        "postgres": {
+          "executionTime": {
+            "avg": 0.87,
+            "min": 0.29,
+            "max": 1.45,
+            "variance": 0.5800000000000001
+          },
+          "cpuTime": {
+            "avg": 0.525,
+            "min": 0.18,
+            "max": 0.87,
+            "variance": 0.345
+          },
+          "latency": {
+            "avg": 29.655,
+            "min": 9.74,
+            "max": 49.57,
+            "variance": 19.915
+          },
+          "memoryUsed": {
+            "avg": 15612,
+            "min": 7280,
+            "max": 23944,
+            "variance": 8332
+          }
+        }
+      }
+    },
+    "q_342311289": {
+      "queryText": "SELECT * FROM accounts;",
+      "executions": {
+        "postgres": [
+          {
+            "timestamp": "2025-12-25T20:42:32.600Z",
+            "metrics": {
+              "executionTime": 1.32,
+              "cpuTime": 0.79,
+              "latency": 16.6,
+              "memoryUsed": 113568,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T20:42:32.601Z",
+            "metrics": {
+              "executionTime": 1.32,
+              "cpuTime": 0.79,
+              "latency": 16.6,
+              "memoryUsed": 113568,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T20:43:11.585Z",
+            "metrics": {
+              "executionTime": 0.39,
+              "cpuTime": 0.23,
+              "latency": 15.87,
+              "memoryUsed": 22024,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T20:43:11.586Z",
+            "metrics": {
+              "executionTime": 0.39,
+              "cpuTime": 0.23,
+              "latency": 15.87,
+              "memoryUsed": 22024,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T20:47:13.228Z",
+            "metrics": {
+              "executionTime": 1916.18,
+              "cpuTime": 1149.71,
+              "latency": 37.96,
+              "memoryUsed": 994552,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T20:47:13.670Z",
+            "metrics": {
+              "executionTime": 1916.18,
+              "cpuTime": 1149.71,
+              "latency": 37.96,
+              "memoryUsed": 994552,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T20:55:56.579Z",
+            "metrics": {
+              "executionTime": 195.87,
+              "cpuTime": 117.52,
+              "latency": 15.97,
+              "memoryUsed": 327352,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T20:55:56.969Z",
+            "metrics": {
+              "executionTime": 195.87,
+              "cpuTime": 117.52,
+              "latency": 15.97,
+              "memoryUsed": 327352,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T20:58:09.155Z",
+            "metrics": {
+              "executionTime": 194.71,
+              "cpuTime": 116.83,
+              "latency": 19.99,
+              "memoryUsed": 60056,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T20:58:09.544Z",
+            "metrics": {
+              "executionTime": 194.71,
+              "cpuTime": 116.83,
+              "latency": 19.99,
+              "memoryUsed": 60056,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:38:40.532Z",
+            "metrics": {
+              "executionTime": 195.17,
+              "cpuTime": 117.1,
+              "latency": 37.36,
+              "memoryUsed": 65672,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:38:40.533Z",
+            "metrics": {
+              "executionTime": 195.17,
+              "cpuTime": 117.1,
+              "latency": 37.36,
+              "memoryUsed": 65672,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:38:50.892Z",
+            "metrics": {
+              "executionTime": 194.74,
+              "cpuTime": 116.84,
+              "latency": 33.16,
+              "memoryUsed": 49960,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:38:50.896Z",
+            "metrics": {
+              "executionTime": 194.74,
+              "cpuTime": 116.84,
+              "latency": 33.16,
+              "memoryUsed": 49960,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:39:38.078Z",
+            "metrics": {
+              "executionTime": 194.58,
+              "cpuTime": 116.75,
+              "latency": 9.01,
+              "memoryUsed": 34360,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:39:38.079Z",
+            "metrics": {
+              "executionTime": 194.58,
+              "cpuTime": 116.75,
+              "latency": 9.01,
+              "memoryUsed": 34360,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:40:10.871Z",
+            "metrics": {
+              "executionTime": 194.53,
+              "cpuTime": 116.72,
+              "latency": 7.98,
+              "memoryUsed": 35560,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:40:10.872Z",
+            "metrics": {
+              "executionTime": 194.53,
+              "cpuTime": 116.72,
+              "latency": 7.98,
+              "memoryUsed": 35560,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:44:26.355Z",
+            "metrics": {
+              "executionTime": 195.12,
+              "cpuTime": 117.07,
+              "latency": 18.3,
+              "memoryUsed": 497256,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:44:26.356Z",
+            "metrics": {
+              "executionTime": 195.12,
+              "cpuTime": 117.07,
+              "latency": 18.3,
+              "memoryUsed": 497256,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:46:56.846Z",
+            "metrics": {
+              "executionTime": 194.76,
+              "cpuTime": 116.85,
+              "latency": 8,
+              "memoryUsed": 38408,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:46:56.847Z",
+            "metrics": {
+              "executionTime": 194.76,
+              "cpuTime": 116.85,
+              "latency": 8,
+              "memoryUsed": 38408,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:47:05.153Z",
+            "metrics": {
+              "executionTime": 194.14,
+              "cpuTime": 116.48,
+              "latency": 27.78,
+              "memoryUsed": 28728,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:47:05.154Z",
+            "metrics": {
+              "executionTime": 194.14,
+              "cpuTime": 116.48,
+              "latency": 27.78,
+              "memoryUsed": 28728,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:47:40.849Z",
+            "metrics": {
+              "executionTime": 194.75,
+              "cpuTime": 116.85,
+              "latency": 12.97,
+              "memoryUsed": 29344,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:47:40.850Z",
+            "metrics": {
+              "executionTime": 194.75,
+              "cpuTime": 116.85,
+              "latency": 12.97,
+              "memoryUsed": 29344,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:48:22.412Z",
+            "metrics": {
+              "executionTime": 194.6,
+              "cpuTime": 116.76,
+              "latency": 12.92,
+              "memoryUsed": 31096,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:48:22.413Z",
+            "metrics": {
+              "executionTime": 194.6,
+              "cpuTime": 116.76,
+              "latency": 12.92,
+              "memoryUsed": 31096,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-26T04:38:49.871Z",
+            "metrics": {
+              "executionTime": 193.72,
+              "cpuTime": 116.23,
+              "latency": 48.98,
+              "memoryUsed": 66520,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-26T04:38:49.873Z",
+            "metrics": {
+              "executionTime": 193.72,
+              "cpuTime": 116.23,
+              "latency": 48.98,
+              "memoryUsed": 66520,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-26T04:38:59.677Z",
+            "metrics": {
+              "executionTime": 193.35,
+              "cpuTime": 116.01,
+              "latency": 35.14,
+              "memoryUsed": 41064,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-26T04:38:59.678Z",
+            "metrics": {
+              "executionTime": 193.35,
+              "cpuTime": 116.01,
+              "latency": 35.14,
+              "memoryUsed": 41064,
+              "rowsAffected": 0
+            }
+          }
+        ],
+        "mongo": [
+          {
+            "timestamp": "2025-12-25T20:58:08.570Z",
+            "metrics": {
+              "executionTime": 0.31,
+              "cpuTime": 0.19,
+              "latency": 16.56,
+              "memoryUsed": 207168,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T20:58:08.960Z",
+            "metrics": {
+              "executionTime": 0.31,
+              "cpuTime": 0.19,
+              "latency": 16.56,
+              "memoryUsed": 207168,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:11:42.080Z",
+            "metrics": {
+              "executionTime": 0.16,
+              "cpuTime": 0.1,
+              "latency": 21.69,
+              "memoryUsed": 11264,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:11:42.475Z",
+            "metrics": {
+              "executionTime": 0.16,
+              "cpuTime": 0.1,
+              "latency": 21.69,
+              "memoryUsed": 11264,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:14:19.567Z",
+            "metrics": {
+              "executionTime": 0.24,
+              "cpuTime": 0.15,
+              "latency": 28.97,
+              "memoryUsed": 10264,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:14:21.233Z",
+            "metrics": {
+              "executionTime": 0.24,
+              "cpuTime": 0.15,
+              "latency": 28.97,
+              "memoryUsed": 10264,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:15:22.677Z",
+            "metrics": {
+              "executionTime": 0.09,
+              "cpuTime": 0.05,
+              "latency": 11.2,
+              "memoryUsed": 3560,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:15:23.076Z",
+            "metrics": {
+              "executionTime": 0.09,
+              "cpuTime": 0.05,
+              "latency": 11.2,
+              "memoryUsed": 3560,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:16:51.713Z",
+            "metrics": {
+              "executionTime": 0.12,
+              "cpuTime": 0.07,
+              "latency": 14.25,
+              "memoryUsed": 0,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:16:52.113Z",
+            "metrics": {
+              "executionTime": 0.12,
+              "cpuTime": 0.07,
+              "latency": 14.25,
+              "memoryUsed": 0,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:19:28.937Z",
+            "metrics": {
+              "executionTime": 1.31,
+              "cpuTime": 0.79,
+              "latency": 21.01,
+              "memoryUsed": 6440,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:19:29.362Z",
+            "metrics": {
+              "executionTime": 1.31,
+              "cpuTime": 0.79,
+              "latency": 21.01,
+              "memoryUsed": 6440,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:20:49.467Z",
+            "metrics": {
+              "executionTime": 0.15,
+              "cpuTime": 0.09,
+              "latency": 23.51,
+              "memoryUsed": 5280,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:20:49.853Z",
+            "metrics": {
+              "executionTime": 0.15,
+              "cpuTime": 0.09,
+              "latency": 23.51,
+              "memoryUsed": 5280,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:23:38.594Z",
+            "metrics": {
+              "executionTime": 0.63,
+              "cpuTime": 0.38,
+              "latency": 12.61,
+              "memoryUsed": 330848,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:23:40.177Z",
+            "metrics": {
+              "executionTime": 0.63,
+              "cpuTime": 0.38,
+              "latency": 12.61,
+              "memoryUsed": 330848,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:27:59.836Z",
+            "metrics": {
+              "executionTime": 0.26,
+              "cpuTime": 0.16,
+              "latency": 8.98,
+              "memoryUsed": 7872,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:27:59.837Z",
+            "metrics": {
+              "executionTime": 0.26,
+              "cpuTime": 0.16,
+              "latency": 8.98,
+              "memoryUsed": 7872,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:33:08.126Z",
+            "metrics": {
+              "executionTime": 0.22,
+              "cpuTime": 0.13,
+              "latency": 9.76,
+              "memoryUsed": 7984,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:33:08.127Z",
+            "metrics": {
+              "executionTime": 0.22,
+              "cpuTime": 0.13,
+              "latency": 9.76,
+              "memoryUsed": 7984,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:37:20.165Z",
+            "metrics": {
+              "executionTime": 0.26,
+              "cpuTime": 0.16,
+              "latency": 33.15,
+              "memoryUsed": 7256,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:37:20.166Z",
+            "metrics": {
+              "executionTime": 0.26,
+              "cpuTime": 0.16,
+              "latency": 33.15,
+              "memoryUsed": 7256,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:40:10.285Z",
+            "metrics": {
+              "executionTime": 0.26,
+              "cpuTime": 0.15,
+              "latency": 24.68,
+              "memoryUsed": 7256,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:40:10.286Z",
+            "metrics": {
+              "executionTime": 0.26,
+              "cpuTime": 0.15,
+              "latency": 24.68,
+              "memoryUsed": 7256,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:44:24.565Z",
+            "metrics": {
+              "executionTime": 58.24,
+              "cpuTime": 34.94,
+              "latency": 49.38,
+              "memoryUsed": 227800,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:47:04.568Z",
+            "metrics": {
+              "executionTime": 3.94,
+              "cpuTime": 2.36,
+              "latency": 36.7,
+              "memoryUsed": 191232,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:47:40.264Z",
+            "metrics": {
+              "executionTime": 2.81,
+              "cpuTime": 1.68,
+              "latency": 25.05,
+              "memoryUsed": 179576,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:48:46.432Z",
+            "metrics": {
+              "executionTime": 3.01,
+              "cpuTime": 1.81,
+              "latency": 40.66,
+              "memoryUsed": 0,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:48:46.433Z",
+            "metrics": {
+              "executionTime": 3.01,
+              "cpuTime": 1.81,
+              "latency": 40.66,
+              "memoryUsed": 0,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-26T04:38:59.090Z",
+            "metrics": {
+              "executionTime": 20.13,
+              "cpuTime": 12.08,
+              "latency": 49.51,
+              "memoryUsed": 216856,
+              "rowsAffected": 0
+            }
+          }
+        ],
+        "redis": [
+          {
+            "timestamp": "2025-12-25T20:58:09.718Z",
+            "metrics": {
+              "executionTime": 172.4,
+              "cpuTime": 103.44,
+              "latency": 37.7,
+              "memoryUsed": 471840,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T20:58:10.107Z",
+            "metrics": {
+              "executionTime": 172.4,
+              "cpuTime": 103.44,
+              "latency": 37.7,
+              "memoryUsed": 471840,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:40:11.444Z",
+            "metrics": {
+              "executionTime": 181.99,
+              "cpuTime": 109.19,
+              "latency": 24.31,
+              "memoryUsed": 471272,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:40:11.445Z",
+            "metrics": {
+              "executionTime": 181.99,
+              "cpuTime": 109.19,
+              "latency": 24.31,
+              "memoryUsed": 471272,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:44:26.874Z",
+            "metrics": {
+              "executionTime": 127.3,
+              "cpuTime": 76.38,
+              "latency": 32.79,
+              "memoryUsed": 0,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:44:26.875Z",
+            "metrics": {
+              "executionTime": 127.3,
+              "cpuTime": 76.38,
+              "latency": 32.79,
+              "memoryUsed": 0,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:47:05.545Z",
+            "metrics": {
+              "executionTime": 0.06,
+              "cpuTime": 0.04,
+              "latency": 42.16,
+              "memoryUsed": 1688,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:47:05.547Z",
+            "metrics": {
+              "executionTime": 0.06,
+              "cpuTime": 0.04,
+              "latency": 42.16,
+              "memoryUsed": 1688,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:47:41.242Z",
+            "metrics": {
+              "executionTime": 0.09,
+              "cpuTime": 0.06,
+              "latency": 21.25,
+              "memoryUsed": 318712,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:47:41.243Z",
+            "metrics": {
+              "executionTime": 0.09,
+              "cpuTime": 0.06,
+              "latency": 21.25,
+              "memoryUsed": 318712,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-26T04:39:00.159Z",
+            "metrics": {
+              "executionTime": 94.02,
+              "cpuTime": 56.41,
+              "latency": 42.04,
+              "memoryUsed": 469016,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-26T04:39:00.162Z",
+            "metrics": {
+              "executionTime": 94.02,
+              "cpuTime": 56.41,
+              "latency": 42.04,
+              "memoryUsed": 469016,
+              "rowsAffected": 0
+            }
+          }
+        ]
+      },
+      "averageMetrics": {
+        "postgres": {
+          "executionTime": {
+            "avg": 277.995625,
+            "min": 0.39,
+            "max": 1916.18,
+            "variance": 427.75868901123374
+          },
+          "cpuTime": {
+            "avg": 166.79625,
+            "min": 0.23,
+            "max": 1149.71,
+            "variance": 256.656105466902
+          },
+          "latency": {
+            "avg": 22.374375,
+            "min": 7.98,
+            "max": 48.98,
+            "variance": 12.229724020163944
+          },
+          "memoryUsed": {
+            "avg": 152220,
+            "min": 22024,
+            "max": 994552,
+            "variance": 251160.40205414547
+          }
+        },
+        "mongo": {
+          "executionTime": {
+            "avg": 3.305333333333334,
+            "min": 0.09,
+            "max": 58.24,
+            "variance": 10.826009647551995
+          },
+          "cpuTime": {
+            "avg": 1.9840000000000002,
+            "min": 0.05,
+            "max": 34.94,
+            "variance": 6.49480027919771
+          },
+          "latency": {
+            "avg": 23.15666666666666,
+            "min": 8.98,
+            "max": 49.51,
+            "variance": 11.52187552248138
+          },
+          "memoryUsed": {
+            "avg": 67528.26666666666,
+            "min": 0,
+            "max": 330848,
+            "variance": 105953.30204542419
+          }
+        },
+        "redis": {
+          "executionTime": {
+            "avg": 95.97666666666665,
+            "min": 0.06,
+            "max": 181.99,
+            "variance": 73.73156146153121
+          },
+          "cpuTime": {
+            "avg": 57.586666666666645,
+            "min": 0.04,
+            "max": 109.19,
+            "variance": 44.23600029639007
+          },
+          "latency": {
+            "avg": 33.375,
+            "min": 21.25,
+            "max": 42.16,
+            "variance": 8.170028049727451
+          },
+          "memoryUsed": {
+            "avg": 288754.6666666667,
+            "min": 0,
+            "max": 471840,
+            "variance": 210559.15043732699
+          }
+        }
+      }
+    },
+    "q_736012244": {
+      "queryText": "SELECT * FROM accounts LIMIT 2;",
+      "executions": {
+        "postgres": [
+          {
+            "timestamp": "2025-12-25T20:47:51.403Z",
+            "metrics": {
+              "executionTime": 196.5,
+              "cpuTime": 117.9,
+              "latency": 47.92,
+              "memoryUsed": 58344,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T20:47:51.794Z",
+            "metrics": {
+              "executionTime": 196.5,
+              "cpuTime": 117.9,
+              "latency": 47.92,
+              "memoryUsed": 58344,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T20:47:58.577Z",
+            "metrics": {
+              "executionTime": 199.05,
+              "cpuTime": 119.43,
+              "latency": 6.43,
+              "memoryUsed": 25960,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T20:47:58.966Z",
+            "metrics": {
+              "executionTime": 199.05,
+              "cpuTime": 119.43,
+              "latency": 6.43,
+              "memoryUsed": 25960,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:01:29.528Z",
+            "metrics": {
+              "executionTime": 194.46,
+              "cpuTime": 116.68,
+              "latency": 54.84,
+              "memoryUsed": 21312,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:01:29.918Z",
+            "metrics": {
+              "executionTime": 194.46,
+              "cpuTime": 116.68,
+              "latency": 54.84,
+              "memoryUsed": 21312,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:02:02.737Z",
+            "metrics": {
+              "executionTime": 194.51,
+              "cpuTime": 116.71,
+              "latency": 51.27,
+              "memoryUsed": 22848,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:02:03.127Z",
+            "metrics": {
+              "executionTime": 194.51,
+              "cpuTime": 116.71,
+              "latency": 51.27,
+              "memoryUsed": 22848,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:08:25.948Z",
+            "metrics": {
+              "executionTime": 196.16,
+              "cpuTime": 117.69,
+              "latency": 32.61,
+              "memoryUsed": 46976,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:08:26.339Z",
+            "metrics": {
+              "executionTime": 196.16,
+              "cpuTime": 117.69,
+              "latency": 32.61,
+              "memoryUsed": 46976,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:14:29.740Z",
+            "metrics": {
+              "executionTime": 199.24,
+              "cpuTime": 119.55,
+              "latency": 43.09,
+              "memoryUsed": 306336,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:14:30.133Z",
+            "metrics": {
+              "executionTime": 199.24,
+              "cpuTime": 119.55,
+              "latency": 43.09,
+              "memoryUsed": 306336,
+              "rowsAffected": 0
+            }
+          }
+        ],
+        "mongo": [
+          {
+            "timestamp": "2025-12-25T21:02:02.151Z",
+            "metrics": {
+              "executionTime": 0.08,
+              "cpuTime": 0.05,
+              "latency": 33.79,
+              "memoryUsed": 2984,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:02:02.542Z",
+            "metrics": {
+              "executionTime": 0.08,
+              "cpuTime": 0.05,
+              "latency": 33.79,
+              "memoryUsed": 2984,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:08:23.624Z",
+            "metrics": {
+              "executionTime": 0.22,
+              "cpuTime": 0.13,
+              "latency": 47.03,
+              "memoryUsed": 9232,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:08:25.751Z",
+            "metrics": {
+              "executionTime": 0.22,
+              "cpuTime": 0.13,
+              "latency": 47.03,
+              "memoryUsed": 9232,
+              "rowsAffected": 0
+            }
+          }
+        ],
+        "redis": [
+          {
+            "timestamp": "2025-12-25T21:02:03.156Z",
+            "metrics": {
+              "executionTime": 28.43,
+              "cpuTime": 17.06,
+              "latency": 30.85,
+              "memoryUsed": 119136,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:02:03.545Z",
+            "metrics": {
+              "executionTime": 28.43,
+              "cpuTime": 17.06,
+              "latency": 30.85,
+              "memoryUsed": 119136,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:08:26.425Z",
+            "metrics": {
+              "executionTime": 85.08,
+              "cpuTime": 51.05,
+              "latency": 43.44,
+              "memoryUsed": 464680,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:08:26.815Z",
+            "metrics": {
+              "executionTime": 85.08,
+              "cpuTime": 51.05,
+              "latency": 43.44,
+              "memoryUsed": 464680,
+              "rowsAffected": 0
+            }
+          }
+        ]
+      },
+      "averageMetrics": {
+        "postgres": {
+          "executionTime": {
+            "avg": 196.65333333333334,
+            "min": 194.46,
+            "max": 199.24,
+            "variance": 1.9194762016990228
+          },
+          "cpuTime": {
+            "avg": 117.99333333333334,
+            "min": 116.68,
+            "max": 119.55,
+            "variance": 1.151790876080473
+          },
+          "latency": {
+            "avg": 39.36000000000001,
+            "min": 6.43,
+            "max": 54.84,
+            "variance": 16.322849016026584
+          },
+          "memoryUsed": {
+            "avg": 80296,
+            "min": 21312,
+            "max": 306336,
+            "variance": 101995.08171148908
+          }
+        },
+        "mongo": {
+          "executionTime": {
+            "avg": 0.15,
+            "min": 0.08,
+            "max": 0.22,
+            "variance": 0.06999999999999999
+          },
+          "cpuTime": {
+            "avg": 0.09,
+            "min": 0.05,
+            "max": 0.13,
+            "variance": 0.04
+          },
+          "latency": {
+            "avg": 40.41,
+            "min": 33.79,
+            "max": 47.03,
+            "variance": 6.620000000000001
+          },
+          "memoryUsed": {
+            "avg": 6108,
+            "min": 2984,
+            "max": 9232,
+            "variance": 3124
+          }
+        },
+        "redis": {
+          "executionTime": {
+            "avg": 56.754999999999995,
+            "min": 28.43,
+            "max": 85.08,
+            "variance": 28.325
+          },
+          "cpuTime": {
+            "avg": 34.05499999999999,
+            "min": 17.06,
+            "max": 51.05,
+            "variance": 16.995
+          },
+          "latency": {
+            "avg": 37.144999999999996,
+            "min": 30.85,
+            "max": 43.44,
+            "variance": 6.294999999999998
+          },
+          "memoryUsed": {
+            "avg": 291908,
+            "min": 119136,
+            "max": 464680,
+            "variance": 172772
+          }
+        }
+      }
+    },
+    "q_1077270278": {
+      "queryText": "SELECT COUNT(*) as count FROM accounts;",
+      "executions": {
+        "postgres": [
+          {
+            "timestamp": "2025-12-25T20:48:11.663Z",
+            "metrics": {
+              "executionTime": 194.4,
+              "cpuTime": 116.64,
+              "latency": 30.98,
+              "memoryUsed": 18560,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T20:48:12.053Z",
+            "metrics": {
+              "executionTime": 194.4,
+              "cpuTime": 116.64,
+              "latency": 30.98,
+              "memoryUsed": 18560,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T20:55:34.450Z",
+            "metrics": {
+              "executionTime": 1926.48,
+              "cpuTime": 1155.89,
+              "latency": 6.58,
+              "memoryUsed": 968824,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T20:55:34.879Z",
+            "metrics": {
+              "executionTime": 1926.48,
+              "cpuTime": 1155.89,
+              "latency": 6.58,
+              "memoryUsed": 968824,
+              "rowsAffected": 0
+            }
+          }
+        ]
+      },
+      "averageMetrics": {
+        "postgres": {
+          "executionTime": {
+            "avg": 1060.44,
+            "min": 194.4,
+            "max": 1926.48,
+            "variance": 866.04
+          },
+          "cpuTime": {
+            "avg": 636.2650000000001,
+            "min": 116.64,
+            "max": 1155.89,
+            "variance": 519.625
+          },
+          "latency": {
+            "avg": 18.78,
+            "min": 6.58,
+            "max": 30.98,
+            "variance": 12.2
+          },
+          "memoryUsed": {
+            "avg": 493692,
+            "min": 18560,
+            "max": 968824,
+            "variance": 475132
+          }
+        }
+      }
+    },
+    "q_232212727": {
+      "queryText": "SELECT id, account_type, balance FROM accounts LIMIT 2;",
+      "executions": {
+        "mongo": [
+          {
+            "timestamp": "2025-12-25T21:00:28.801Z",
+            "metrics": {
+              "executionTime": 0.19,
+              "cpuTime": 0.12,
+              "latency": 39.6,
+              "memoryUsed": 12528,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:00:29.191Z",
+            "metrics": {
+              "executionTime": 0.19,
+              "cpuTime": 0.12,
+              "latency": 39.6,
+              "memoryUsed": 12528,
+              "rowsAffected": 0
+            }
+          }
+        ],
+        "postgres": [
+          {
+            "timestamp": "2025-12-25T21:00:29.388Z",
+            "metrics": {
+              "executionTime": 196.22,
+              "cpuTime": 117.73,
+              "latency": 44.93,
+              "memoryUsed": 12744,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:00:29.778Z",
+            "metrics": {
+              "executionTime": 196.22,
+              "cpuTime": 117.73,
+              "latency": 44.93,
+              "memoryUsed": 12744,
+              "rowsAffected": 0
+            }
+          }
+        ],
+        "redis": [
+          {
+            "timestamp": "2025-12-25T21:00:29.990Z",
+            "metrics": {
+              "executionTime": 211.26,
+              "cpuTime": 126.76,
+              "latency": 54.37,
+              "memoryUsed": 0,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:00:30.380Z",
+            "metrics": {
+              "executionTime": 211.26,
+              "cpuTime": 126.76,
+              "latency": 54.37,
+              "memoryUsed": 0,
+              "rowsAffected": 0
+            }
+          }
+        ]
+      },
+      "averageMetrics": {
+        "mongo": {
+          "executionTime": {
+            "avg": 0.19,
+            "min": 0.19,
+            "max": 0.19,
+            "variance": 0
+          },
+          "cpuTime": {
+            "avg": 0.12,
+            "min": 0.12,
+            "max": 0.12,
+            "variance": 0
+          },
+          "latency": {
+            "avg": 39.6,
+            "min": 39.6,
+            "max": 39.6,
+            "variance": 0
+          },
+          "memoryUsed": {
+            "avg": 12528,
+            "min": 12528,
+            "max": 12528,
+            "variance": 0
+          }
+        },
+        "postgres": {
+          "executionTime": {
+            "avg": 196.22,
+            "min": 196.22,
+            "max": 196.22,
+            "variance": 0
+          },
+          "cpuTime": {
+            "avg": 117.73,
+            "min": 117.73,
+            "max": 117.73,
+            "variance": 0
+          },
+          "latency": {
+            "avg": 44.93,
+            "min": 44.93,
+            "max": 44.93,
+            "variance": 0
+          },
+          "memoryUsed": {
+            "avg": 12744,
+            "min": 12744,
+            "max": 12744,
+            "variance": 0
+          }
+        },
+        "redis": {
+          "executionTime": {
+            "avg": 211.26,
+            "min": 211.26,
+            "max": 211.26,
+            "variance": 0
+          },
+          "cpuTime": {
+            "avg": 126.76,
+            "min": 126.76,
+            "max": 126.76,
+            "variance": 0
+          },
+          "latency": {
+            "avg": 54.37,
+            "min": 54.37,
+            "max": 54.37,
+            "variance": 0
+          },
+          "memoryUsed": {
+            "avg": 0,
+            "min": 0,
+            "max": 0,
+            "variance": 0
+          }
+        }
+      }
+    },
+    "q_67403952": {
+      "queryText": "db.accounts.find({})",
+      "executions": {
+        "mongo": [
+          {
+            "timestamp": "2025-12-25T21:08:35.564Z",
+            "metrics": {
+              "executionTime": 210.79,
+              "cpuTime": 126.48,
+              "latency": 22,
+              "memoryUsed": 635168,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:08:35.599Z",
+            "metrics": {
+              "executionTime": 210.79,
+              "cpuTime": 126.48,
+              "latency": 22,
+              "memoryUsed": 635168,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:44:24.564Z",
+            "metrics": {
+              "executionTime": 58.24,
+              "cpuTime": 34.94,
+              "latency": 49.38,
+              "memoryUsed": 227800,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:47:04.567Z",
+            "metrics": {
+              "executionTime": 3.94,
+              "cpuTime": 2.36,
+              "latency": 36.7,
+              "memoryUsed": 191232,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:47:40.263Z",
+            "metrics": {
+              "executionTime": 2.81,
+              "cpuTime": 1.68,
+              "latency": 25.05,
+              "memoryUsed": 179576,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-26T04:38:59.089Z",
+            "metrics": {
+              "executionTime": 20.13,
+              "cpuTime": 12.08,
+              "latency": 49.51,
+              "memoryUsed": 216856,
+              "rowsAffected": 0
+            }
+          }
+        ],
+        "postgres": [
+          {
+            "timestamp": "2025-12-25T21:08:35.799Z",
+            "metrics": {
+              "executionTime": 199.81,
+              "cpuTime": 119.88,
+              "latency": 51.86,
+              "memoryUsed": 339560,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:08:35.803Z",
+            "metrics": {
+              "executionTime": 199.81,
+              "cpuTime": 119.88,
+              "latency": 51.86,
+              "memoryUsed": 339560,
+              "rowsAffected": 0
+            }
+          }
+        ],
+        "redis": [
+          {
+            "timestamp": "2025-12-25T21:08:35.805Z",
+            "metrics": {
+              "executionTime": 0.11,
+              "cpuTime": 0.07,
+              "latency": 39.9,
+              "memoryUsed": 4136,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:08:35.808Z",
+            "metrics": {
+              "executionTime": 0.11,
+              "cpuTime": 0.07,
+              "latency": 39.9,
+              "memoryUsed": 4136,
+              "rowsAffected": 0
+            }
+          }
+        ]
+      },
+      "averageMetrics": {
+        "mongo": {
+          "executionTime": {
+            "avg": 84.45,
+            "min": 2.81,
+            "max": 210.79,
+            "variance": 91.19079577091831
+          },
+          "cpuTime": {
+            "avg": 50.669999999999995,
+            "min": 1.68,
+            "max": 126.48,
+            "variance": 54.71868876352941
+          },
+          "latency": {
+            "avg": 34.10666666666666,
+            "min": 22,
+            "max": 49.51,
+            "variance": 11.919373119235573
+          },
+          "memoryUsed": {
+            "avg": 347633.3333333333,
+            "min": 179576,
+            "max": 635168,
+            "variance": 203927.9906067063
+          }
+        },
+        "postgres": {
+          "executionTime": {
+            "avg": 199.81,
+            "min": 199.81,
+            "max": 199.81,
+            "variance": 0
+          },
+          "cpuTime": {
+            "avg": 119.88,
+            "min": 119.88,
+            "max": 119.88,
+            "variance": 0
+          },
+          "latency": {
+            "avg": 51.86,
+            "min": 51.86,
+            "max": 51.86,
+            "variance": 0
+          },
+          "memoryUsed": {
+            "avg": 339560,
+            "min": 339560,
+            "max": 339560,
+            "variance": 0
+          }
+        },
+        "redis": {
+          "executionTime": {
+            "avg": 0.11,
+            "min": 0.11,
+            "max": 0.11,
+            "variance": 0
+          },
+          "cpuTime": {
+            "avg": 0.07,
+            "min": 0.07,
+            "max": 0.07,
+            "variance": 0
+          },
+          "latency": {
+            "avg": 39.9,
+            "min": 39.9,
+            "max": 39.9,
+            "variance": 0
+          },
+          "memoryUsed": {
+            "avg": 4136,
+            "min": 4136,
+            "max": 4136,
+            "variance": 0
+          }
+        }
+      }
+    },
+    "q_903950841": {
+      "queryText": "GET account:ACC001",
+      "executions": {
+        "mongo": [
+          {
+            "timestamp": "2025-12-25T21:08:43.611Z",
+            "metrics": {
+              "executionTime": 0.08,
+              "cpuTime": 0.05,
+              "latency": 33.71,
+              "memoryUsed": 5600,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:08:43.680Z",
+            "metrics": {
+              "executionTime": 0.08,
+              "cpuTime": 0.05,
+              "latency": 33.71,
+              "memoryUsed": 5600,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:10:05.944Z",
+            "metrics": {
+              "executionTime": 0.23,
+              "cpuTime": 0.14,
+              "latency": 34.93,
+              "memoryUsed": 9864,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:10:05.984Z",
+            "metrics": {
+              "executionTime": 0.23,
+              "cpuTime": 0.14,
+              "latency": 34.93,
+              "memoryUsed": 9864,
+              "rowsAffected": 0
+            }
+          }
+        ],
+        "postgres": [
+          {
+            "timestamp": "2025-12-25T21:08:43.877Z",
+            "metrics": {
+              "executionTime": 195.47,
+              "cpuTime": 117.28,
+              "latency": 28.81,
+              "memoryUsed": 52136,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:08:43.987Z",
+            "metrics": {
+              "executionTime": 195.47,
+              "cpuTime": 117.28,
+              "latency": 28.81,
+              "memoryUsed": 52136,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:10:07.362Z",
+            "metrics": {
+              "executionTime": 1377.13,
+              "cpuTime": 826.28,
+              "latency": 28.63,
+              "memoryUsed": 647800,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:10:07.363Z",
+            "metrics": {
+              "executionTime": 1377.13,
+              "cpuTime": 826.28,
+              "latency": 28.63,
+              "memoryUsed": 647800,
+              "rowsAffected": 0
+            }
+          }
+        ],
+        "redis": [
+          {
+            "timestamp": "2025-12-25T21:08:43.995Z",
+            "metrics": {
+              "executionTime": 7.16,
+              "cpuTime": 4.3,
+              "latency": 12.7,
+              "memoryUsed": 117840,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:08:44.007Z",
+            "metrics": {
+              "executionTime": 7.16,
+              "cpuTime": 4.3,
+              "latency": 12.7,
+              "memoryUsed": 117840,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:10:07.364Z",
+            "metrics": {
+              "executionTime": 0.3,
+              "cpuTime": 0.18,
+              "latency": 52.69,
+              "memoryUsed": 7584,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:10:07.365Z",
+            "metrics": {
+              "executionTime": 0.3,
+              "cpuTime": 0.18,
+              "latency": 52.69,
+              "memoryUsed": 7584,
+              "rowsAffected": 0
+            }
+          }
+        ]
+      },
+      "averageMetrics": {
+        "mongo": {
+          "executionTime": {
+            "avg": 0.155,
+            "min": 0.08,
+            "max": 0.23,
+            "variance": 0.07500000000000001
+          },
+          "cpuTime": {
+            "avg": 0.095,
+            "min": 0.05,
+            "max": 0.14,
+            "variance": 0.045000000000000005
+          },
+          "latency": {
+            "avg": 34.32,
+            "min": 33.71,
+            "max": 34.93,
+            "variance": 0.6099999999999994
+          },
+          "memoryUsed": {
+            "avg": 7732,
+            "min": 5600,
+            "max": 9864,
+            "variance": 2132
+          }
+        },
+        "postgres": {
+          "executionTime": {
+            "avg": 786.3000000000001,
+            "min": 195.47,
+            "max": 1377.13,
+            "variance": 590.83
+          },
+          "cpuTime": {
+            "avg": 471.78,
+            "min": 117.28,
+            "max": 826.28,
+            "variance": 354.5
+          },
+          "latency": {
+            "avg": 28.72,
+            "min": 28.63,
+            "max": 28.81,
+            "variance": 0.08999999999999986
+          },
+          "memoryUsed": {
+            "avg": 349968,
+            "min": 52136,
+            "max": 647800,
+            "variance": 297832
+          }
+        },
+        "redis": {
+          "executionTime": {
+            "avg": 3.7300000000000004,
+            "min": 0.3,
+            "max": 7.16,
+            "variance": 3.43
+          },
+          "cpuTime": {
+            "avg": 2.2399999999999998,
+            "min": 0.18,
+            "max": 4.3,
+            "variance": 2.0599999999999996
+          },
+          "latency": {
+            "avg": 32.695,
+            "min": 12.7,
+            "max": 52.69,
+            "variance": 19.995
+          },
+          "memoryUsed": {
+            "avg": 62712,
+            "min": 7584,
+            "max": 117840,
+            "variance": 55128
+          }
+        }
+      }
+    },
+    "q_736012275": {
+      "queryText": "SELECT * FROM accounts LIMIT 1;",
+      "executions": {
+        "mongo": [
+          {
+            "timestamp": "2025-12-25T21:14:38.196Z",
+            "metrics": {
+              "executionTime": 0.15,
+              "cpuTime": 0.09,
+              "latency": 19.21,
+              "memoryUsed": 6096,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:14:38.595Z",
+            "metrics": {
+              "executionTime": 0.15,
+              "cpuTime": 0.09,
+              "latency": 19.21,
+              "memoryUsed": 6096,
+              "rowsAffected": 0
+            }
+          }
+        ],
+        "postgres": [
+          {
+            "timestamp": "2025-12-25T21:14:38.794Z",
+            "metrics": {
+              "executionTime": 198.88,
+              "cpuTime": 119.33,
+              "latency": 38.37,
+              "memoryUsed": 15832,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:14:39.197Z",
+            "metrics": {
+              "executionTime": 198.88,
+              "cpuTime": 119.33,
+              "latency": 38.37,
+              "memoryUsed": 15832,
+              "rowsAffected": 0
+            }
+          }
+        ],
+        "redis": [
+          {
+            "timestamp": "2025-12-25T21:14:39.348Z",
+            "metrics": {
+              "executionTime": 150.22,
+              "cpuTime": 90.13,
+              "latency": 37,
+              "memoryUsed": 468408,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:14:39.747Z",
+            "metrics": {
+              "executionTime": 150.22,
+              "cpuTime": 90.13,
+              "latency": 37,
+              "memoryUsed": 468408,
+              "rowsAffected": 0
+            }
+          }
+        ]
+      },
+      "averageMetrics": {
+        "mongo": {
+          "executionTime": {
+            "avg": 0.15,
+            "min": 0.15,
+            "max": 0.15,
+            "variance": 0
+          },
+          "cpuTime": {
+            "avg": 0.09,
+            "min": 0.09,
+            "max": 0.09,
+            "variance": 0
+          },
+          "latency": {
+            "avg": 19.21,
+            "min": 19.21,
+            "max": 19.21,
+            "variance": 0
+          },
+          "memoryUsed": {
+            "avg": 6096,
+            "min": 6096,
+            "max": 6096,
+            "variance": 0
+          }
+        },
+        "postgres": {
+          "executionTime": {
+            "avg": 198.88,
+            "min": 198.88,
+            "max": 198.88,
+            "variance": 0
+          },
+          "cpuTime": {
+            "avg": 119.33,
+            "min": 119.33,
+            "max": 119.33,
+            "variance": 0
+          },
+          "latency": {
+            "avg": 38.37,
+            "min": 38.37,
+            "max": 38.37,
+            "variance": 0
+          },
+          "memoryUsed": {
+            "avg": 15832,
+            "min": 15832,
+            "max": 15832,
+            "variance": 0
+          }
+        },
+        "redis": {
+          "executionTime": {
+            "avg": 150.22,
+            "min": 150.22,
+            "max": 150.22,
+            "variance": 0
+          },
+          "cpuTime": {
+            "avg": 90.13,
+            "min": 90.13,
+            "max": 90.13,
+            "variance": 0
+          },
+          "latency": {
+            "avg": 37,
+            "min": 37,
+            "max": 37,
+            "variance": 0
+          },
+          "memoryUsed": {
+            "avg": 468408,
+            "min": 468408,
+            "max": 468408,
+            "variance": 0
+          }
+        }
+      }
+    },
+    "q_555900482": {
+      "queryText": "db.accounts.find({\"balance\":{\"$gt\":5000}})",
+      "executions": {
+        "mongo": [
+          {
+            "timestamp": "2025-12-25T21:44:53.187Z",
+            "metrics": {
+              "executionTime": 0.11,
+              "cpuTime": 0.07,
+              "latency": 30.5,
+              "memoryUsed": 3576,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:46:06.339Z",
+            "metrics": {
+              "executionTime": 4.23,
+              "cpuTime": 2.54,
+              "latency": 18.5,
+              "memoryUsed": 253920,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:58:37.803Z",
+            "metrics": {
+              "executionTime": 20.48,
+              "cpuTime": 12.29,
+              "latency": 31.96,
+              "memoryUsed": 230552,
+              "rowsAffected": 0
+            }
+          }
+        ]
+      },
+      "averageMetrics": {
+        "mongo": {
+          "executionTime": {
+            "avg": 8.273333333333333,
+            "min": 0.11,
+            "max": 20.48,
+            "variance": 8.793771785884726
+          },
+          "cpuTime": {
+            "avg": 4.966666666666666,
+            "min": 0.07,
+            "max": 12.29,
+            "variance": 5.275644247124916
+          },
+          "latency": {
+            "avg": 26.986666666666668,
+            "min": 18.5,
+            "max": 31.96,
+            "variance": 6.030507625583623
+          },
+          "memoryUsed": {
+            "avg": 162682.66666666666,
+            "min": 3576,
+            "max": 253920,
+            "variance": 112909.15046866465
+          }
+        }
+      }
+    },
+    "q_24316349": {
+      "queryText": "SELECT * FROM accounts WHERE balance > 5000;",
+      "executions": {
+        "mongo": [
+          {
+            "timestamp": "2025-12-25T21:44:53.188Z",
+            "metrics": {
+              "executionTime": 0.11,
+              "cpuTime": 0.07,
+              "latency": 30.5,
+              "memoryUsed": 3576,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:46:06.340Z",
+            "metrics": {
+              "executionTime": 4.23,
+              "cpuTime": 2.54,
+              "latency": 18.5,
+              "memoryUsed": 253920,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:58:37.805Z",
+            "metrics": {
+              "executionTime": 20.48,
+              "cpuTime": 12.29,
+              "latency": 31.96,
+              "memoryUsed": 230552,
+              "rowsAffected": 0
+            }
+          }
+        ],
+        "postgres": [
+          {
+            "timestamp": "2025-12-25T21:44:53.784Z",
+            "metrics": {
+              "executionTime": 204.4,
+              "cpuTime": 122.64,
+              "latency": 42.84,
+              "memoryUsed": 0,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:44:53.785Z",
+            "metrics": {
+              "executionTime": 204.4,
+              "cpuTime": 122.64,
+              "latency": 42.84,
+              "memoryUsed": 0,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:46:08.118Z",
+            "metrics": {
+              "executionTime": 194.97,
+              "cpuTime": 116.98,
+              "latency": 45.62,
+              "memoryUsed": 48400,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:46:08.120Z",
+            "metrics": {
+              "executionTime": 194.97,
+              "cpuTime": 116.98,
+              "latency": 45.62,
+              "memoryUsed": 48400,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:58:40.222Z",
+            "metrics": {
+              "executionTime": 201.99,
+              "cpuTime": 121.19,
+              "latency": 13.66,
+              "memoryUsed": 49408,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:58:40.224Z",
+            "metrics": {
+              "executionTime": 201.99,
+              "cpuTime": 121.19,
+              "latency": 13.66,
+              "memoryUsed": 49408,
+              "rowsAffected": 0
+            }
+          }
+        ],
+        "redis": [
+          {
+            "timestamp": "2025-12-25T21:44:54.175Z",
+            "metrics": {
+              "executionTime": 0.07,
+              "cpuTime": 0.04,
+              "latency": 35.71,
+              "memoryUsed": 1944,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:44:54.176Z",
+            "metrics": {
+              "executionTime": 0.07,
+              "cpuTime": 0.04,
+              "latency": 35.71,
+              "memoryUsed": 1944,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:46:08.636Z",
+            "metrics": {
+              "executionTime": 126.01,
+              "cpuTime": 75.6,
+              "latency": 7.02,
+              "memoryUsed": 445720,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:46:08.637Z",
+            "metrics": {
+              "executionTime": 126.01,
+              "cpuTime": 75.6,
+              "latency": 7.02,
+              "memoryUsed": 445720,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:58:40.702Z",
+            "metrics": {
+              "executionTime": 87.02,
+              "cpuTime": 52.21,
+              "latency": 41.15,
+              "memoryUsed": 487176,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:58:40.703Z",
+            "metrics": {
+              "executionTime": 87.02,
+              "cpuTime": 52.21,
+              "latency": 41.15,
+              "memoryUsed": 487176,
+              "rowsAffected": 0
+            }
+          }
+        ]
+      },
+      "averageMetrics": {
+        "mongo": {
+          "executionTime": {
+            "avg": 8.273333333333333,
+            "min": 0.11,
+            "max": 20.48,
+            "variance": 8.793771785884726
+          },
+          "cpuTime": {
+            "avg": 4.966666666666666,
+            "min": 0.07,
+            "max": 12.29,
+            "variance": 5.275644247124916
+          },
+          "latency": {
+            "avg": 26.986666666666668,
+            "min": 18.5,
+            "max": 31.96,
+            "variance": 6.030507625583623
+          },
+          "memoryUsed": {
+            "avg": 162682.66666666666,
+            "min": 3576,
+            "max": 253920,
+            "variance": 112909.15046866465
+          }
+        },
+        "postgres": {
+          "executionTime": {
+            "avg": 200.45333333333335,
+            "min": 194.97,
+            "max": 204.4,
+            "variance": 4.000186106781648
+          },
+          "cpuTime": {
+            "avg": 120.27000000000002,
+            "min": 116.98,
+            "max": 122.64,
+            "variance": 2.4005138338836245
+          },
+          "latency": {
+            "avg": 34.04,
+            "min": 13.66,
+            "max": 45.62,
+            "variance": 14.455458023413394
+          },
+          "memoryUsed": {
+            "avg": 32602.666666666668,
+            "min": 0,
+            "max": 49408,
+            "variance": 23057.23922955411
+          }
+        },
+        "redis": {
+          "executionTime": {
+            "avg": 71.03333333333333,
+            "min": 0.07,
+            "max": 126.01,
+            "variance": 52.642828149288825
+          },
+          "cpuTime": {
+            "avg": 42.61666666666667,
+            "min": 0.04,
+            "max": 75.6,
+            "variance": 31.58430447055766
+          },
+          "latency": {
+            "avg": 27.959999999999997,
+            "min": 7.02,
+            "max": 41.15,
+            "variance": 14.972443577007285
+          },
+          "memoryUsed": {
+            "avg": 311613.3333333333,
+            "min": 1944,
+            "max": 487176,
+            "variance": 219622.3607154386
+          }
+        }
+      }
+    },
+    "q_1756204049": {
+      "queryText": "db.customers.find({}).limit(2)",
+      "executions": {
+        "mongo": [
+          {
+            "timestamp": "2025-12-25T21:46:14.718Z",
+            "metrics": {
+              "executionTime": 3.14,
+              "cpuTime": 1.88,
+              "latency": 8.09,
+              "memoryUsed": 208760,
+              "rowsAffected": 0
+            }
+          }
+        ]
+      },
+      "averageMetrics": {
+        "mongo": {
+          "executionTime": {
+            "avg": 3.14,
+            "min": 3.14,
+            "max": 3.14,
+            "variance": 0
+          },
+          "cpuTime": {
+            "avg": 1.88,
+            "min": 1.88,
+            "max": 1.88,
+            "variance": 0
+          },
+          "latency": {
+            "avg": 8.09,
+            "min": 8.09,
+            "max": 8.09,
+            "variance": 0
+          },
+          "memoryUsed": {
+            "avg": 208760,
+            "min": 208760,
+            "max": 208760,
+            "variance": 0
+          }
+        }
+      }
+    },
+    "q_392853589": {
+      "queryText": "SELECT * FROM customers LIMIT 2;",
+      "executions": {
+        "mongo": [
+          {
+            "timestamp": "2025-12-25T21:46:14.719Z",
+            "metrics": {
+              "executionTime": 3.14,
+              "cpuTime": 1.88,
+              "latency": 8.09,
+              "memoryUsed": 208760,
+              "rowsAffected": 0
+            }
+          }
+        ],
+        "postgres": [
+          {
+            "timestamp": "2025-12-25T21:46:15.317Z",
+            "metrics": {
+              "executionTime": 194.34,
+              "cpuTime": 116.6,
+              "latency": 36.39,
+              "memoryUsed": 0,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:46:15.318Z",
+            "metrics": {
+              "executionTime": 194.34,
+              "cpuTime": 116.6,
+              "latency": 36.39,
+              "memoryUsed": 0,
+              "rowsAffected": 0
+            }
+          }
+        ],
+        "redis": [
+          {
+            "timestamp": "2025-12-25T21:46:15.709Z",
+            "metrics": {
+              "executionTime": 0.07,
+              "cpuTime": 0.04,
+              "latency": 32.09,
+              "memoryUsed": 1912,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:46:15.710Z",
+            "metrics": {
+              "executionTime": 0.07,
+              "cpuTime": 0.04,
+              "latency": 32.09,
+              "memoryUsed": 1912,
+              "rowsAffected": 0
+            }
+          }
+        ]
+      },
+      "averageMetrics": {
+        "mongo": {
+          "executionTime": {
+            "avg": 3.14,
+            "min": 3.14,
+            "max": 3.14,
+            "variance": 0
+          },
+          "cpuTime": {
+            "avg": 1.88,
+            "min": 1.88,
+            "max": 1.88,
+            "variance": 0
+          },
+          "latency": {
+            "avg": 8.09,
+            "min": 8.09,
+            "max": 8.09,
+            "variance": 0
+          },
+          "memoryUsed": {
+            "avg": 208760,
+            "min": 208760,
+            "max": 208760,
+            "variance": 0
+          }
+        },
+        "postgres": {
+          "executionTime": {
+            "avg": 194.34,
+            "min": 194.34,
+            "max": 194.34,
+            "variance": 0
+          },
+          "cpuTime": {
+            "avg": 116.6,
+            "min": 116.6,
+            "max": 116.6,
+            "variance": 0
+          },
+          "latency": {
+            "avg": 36.39,
+            "min": 36.39,
+            "max": 36.39,
+            "variance": 0
+          },
+          "memoryUsed": {
+            "avg": 0,
+            "min": 0,
+            "max": 0,
+            "variance": 0
+          }
+        },
+        "redis": {
+          "executionTime": {
+            "avg": 0.07,
+            "min": 0.07,
+            "max": 0.07,
+            "variance": 0
+          },
+          "cpuTime": {
+            "avg": 0.04,
+            "min": 0.04,
+            "max": 0.04,
+            "variance": 0
+          },
+          "latency": {
+            "avg": 32.09,
+            "min": 32.09,
+            "max": 32.09,
+            "variance": 0
+          },
+          "memoryUsed": {
+            "avg": 1912,
+            "min": 1912,
+            "max": 1912,
+            "variance": 0
+          }
+        }
+      }
+    },
+    "q_1053183978": {
+      "queryText": "SELECT * FROM transactions;",
+      "executions": {
+        "postgres": [
+          {
+            "timestamp": "2025-12-25T21:49:51.525Z",
+            "metrics": {
+              "executionTime": 194.89,
+              "cpuTime": 116.93,
+              "latency": 40.05,
+              "memoryUsed": 35024,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:49:51.527Z",
+            "metrics": {
+              "executionTime": 194.89,
+              "cpuTime": 116.93,
+              "latency": 40.05,
+              "memoryUsed": 35024,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:50:33.928Z",
+            "metrics": {
+              "executionTime": 194.1,
+              "cpuTime": 116.46,
+              "latency": 30.87,
+              "memoryUsed": 19704,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:50:33.932Z",
+            "metrics": {
+              "executionTime": 194.1,
+              "cpuTime": 116.46,
+              "latency": 30.87,
+              "memoryUsed": 19704,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:51:42.385Z",
+            "metrics": {
+              "executionTime": 194.6,
+              "cpuTime": 116.76,
+              "latency": 43.63,
+              "memoryUsed": 26688,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:51:42.386Z",
+            "metrics": {
+              "executionTime": 194.6,
+              "cpuTime": 116.76,
+              "latency": 43.63,
+              "memoryUsed": 26688,
+              "rowsAffected": 0
+            }
+          }
+        ],
+        "mongo": [
+          {
+            "timestamp": "2025-12-25T21:50:33.343Z",
+            "metrics": {
+              "executionTime": 53.68,
+              "cpuTime": 32.21,
+              "latency": 42.69,
+              "memoryUsed": 173496,
+              "rowsAffected": 0
+            }
+          }
+        ],
+        "redis": [
+          {
+            "timestamp": "2025-12-25T21:50:34.325Z",
+            "metrics": {
+              "executionTime": 0.27,
+              "cpuTime": 0.16,
+              "latency": 39.06,
+              "memoryUsed": 3952,
+              "rowsAffected": 0
+            }
+          },
+          {
+            "timestamp": "2025-12-25T21:50:34.332Z",
+            "metrics": {
+              "executionTime": 0.27,
+              "cpuTime": 0.16,
+              "latency": 39.06,
+              "memoryUsed": 3952,
+              "rowsAffected": 0
+            }
+          }
+        ]
+      },
+      "averageMetrics": {
+        "postgres": {
+          "executionTime": {
+            "avg": 194.53,
+            "min": 194.1,
+            "max": 194.89,
+            "variance": 0.3262923024937376
+          },
+          "cpuTime": {
+            "avg": 116.71666666666665,
+            "min": 116.46,
+            "max": 116.93,
+            "variance": 0.19430788855720124
+          },
+          "latency": {
+            "avg": 38.18333333333333,
+            "min": 30.87,
+            "max": 43.63,
+            "variance": 5.373870940847844
+          },
+          "memoryUsed": {
+            "avg": 27138.666666666668,
+            "min": 19704,
+            "max": 35024,
+            "variance": 6262.476897273865
+          }
+        },
+        "mongo": {
+          "executionTime": {
+            "avg": 53.68,
+            "min": 53.68,
+            "max": 53.68,
+            "variance": 0
+          },
+          "cpuTime": {
+            "avg": 32.21,
+            "min": 32.21,
+            "max": 32.21,
+            "variance": 0
+          },
+          "latency": {
+            "avg": 42.69,
+            "min": 42.69,
+            "max": 42.69,
+            "variance": 0
+          },
+          "memoryUsed": {
+            "avg": 173496,
+            "min": 173496,
+            "max": 173496,
+            "variance": 0
+          }
+        },
+        "redis": {
+          "executionTime": {
+            "avg": 0.27,
+            "min": 0.27,
+            "max": 0.27,
+            "variance": 0
+          },
+          "cpuTime": {
+            "avg": 0.16,
+            "min": 0.16,
+            "max": 0.16,
+            "variance": 0
+          },
+          "latency": {
+            "avg": 39.06,
+            "min": 39.06,
+            "max": 39.06,
+            "variance": 0
+          },
+          "memoryUsed": {
+            "avg": 3952,
+            "min": 3952,
+            "max": 3952,
+            "variance": 0
+          }
+        }
+      }
+    },
+    "q_1827641377": {
+      "queryText": "db.transactions.find({})",
+      "executions": {
+        "mongo": [
+          {
+            "timestamp": "2025-12-25T21:50:33.342Z",
+            "metrics": {
+              "executionTime": 53.68,
+              "cpuTime": 32.21,
+              "latency": 42.69,
+              "memoryUsed": 173496,
+              "rowsAffected": 0
+            }
+          }
+        ]
+      },
+      "averageMetrics": {
+        "mongo": {
+          "executionTime": {
+            "avg": 53.68,
+            "min": 53.68,
+            "max": 53.68,
+            "variance": 0
+          },
+          "cpuTime": {
+            "avg": 32.21,
+            "min": 32.21,
+            "max": 32.21,
+            "variance": 0
+          },
+          "latency": {
+            "avg": 42.69,
+            "min": 42.69,
+            "max": 42.69,
+            "variance": 0
+          },
+          "memoryUsed": {
+            "avg": 173496,
+            "min": 173496,
+            "max": 173496,
+            "variance": 0
+          }
+        }
+      }
+    }
+  },
+  "performanceCache": {}
+}

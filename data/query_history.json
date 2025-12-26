@@ -1,0 +1,3062 @@
+[
+  {
+    "id": "query_1766723929873_qvfayvtmp",
+    "timestamp": "2025-12-26T04:38:49.873Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 193.72,
+      "cpuTime": 116.23,
+      "latency": 48.98,
+      "memoryUsed": 66520,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766723929870_3ml7uhvhq",
+    "timestamp": "2025-12-26T04:38:49.870Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 193.72,
+      "cpuTime": 116.23,
+      "latency": 48.98,
+      "memoryUsed": 66520,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699920703_3wf0y0ma9",
+    "timestamp": "2025-12-25T21:58:40.703Z",
+    "queryText": "SELECT * FROM accounts WHERE balance > 5000;",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 87.02,
+      "cpuTime": 52.21,
+      "latency": 41.15,
+      "memoryUsed": 487176,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699920702_tvrq20gml",
+    "timestamp": "2025-12-25T21:58:40.702Z",
+    "queryText": "SELECT * FROM accounts WHERE balance > 5000;",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 87.02,
+      "cpuTime": 52.21,
+      "latency": 41.15,
+      "memoryUsed": 487176,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699920224_ow6xlesw1",
+    "timestamp": "2025-12-25T21:58:40.224Z",
+    "queryText": "SELECT * FROM accounts WHERE balance > 5000;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 201.99,
+      "cpuTime": 121.19,
+      "latency": 13.66,
+      "memoryUsed": 49408,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 3,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699920222_lh4xt5zaa",
+    "timestamp": "2025-12-25T21:58:40.222Z",
+    "queryText": "SELECT * FROM accounts WHERE balance > 5000;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 201.99,
+      "cpuTime": 121.19,
+      "latency": 13.66,
+      "memoryUsed": 49408,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 3,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699917805_rfu8ljxy8",
+    "timestamp": "2025-12-25T21:58:37.805Z",
+    "queryText": "SELECT * FROM accounts WHERE balance > 5000;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 20.48,
+      "cpuTime": 12.29,
+      "latency": 31.96,
+      "memoryUsed": 230552,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 3,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699917803_fumzvpjoc",
+    "timestamp": "2025-12-25T21:58:37.803Z",
+    "queryText": "db.accounts.find({\"balance\":{\"$gt\":5000}})",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 20.48,
+      "cpuTime": 12.29,
+      "latency": 31.96,
+      "memoryUsed": 230552,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 3,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699502386_oz8zyd9fe",
+    "timestamp": "2025-12-25T21:51:42.386Z",
+    "queryText": "SELECT * FROM transactions;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 194.6,
+      "cpuTime": 116.76,
+      "latency": 43.63,
+      "memoryUsed": 26688,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 4,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699502384_20kduk191",
+    "timestamp": "2025-12-25T21:51:42.384Z",
+    "queryText": "SELECT * FROM transactions;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 194.6,
+      "cpuTime": 116.76,
+      "latency": 43.63,
+      "memoryUsed": 26688,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 4,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699434328_5ucanl3j2",
+    "timestamp": "2025-12-25T21:50:34.328Z",
+    "queryText": "SELECT * FROM transactions;",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 0.27,
+      "cpuTime": 0.16,
+      "latency": 39.06,
+      "memoryUsed": 3952,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699434325_fwiluqb51",
+    "timestamp": "2025-12-25T21:50:34.325Z",
+    "queryText": "SELECT * FROM transactions;",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 0.27,
+      "cpuTime": 0.16,
+      "latency": 39.06,
+      "memoryUsed": 3952,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699433932_6gss2ics3",
+    "timestamp": "2025-12-25T21:50:33.932Z",
+    "queryText": "SELECT * FROM transactions;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 194.1,
+      "cpuTime": 116.46,
+      "latency": 30.87,
+      "memoryUsed": 19704,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 4,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699433928_b4d8x94m7",
+    "timestamp": "2025-12-25T21:50:33.928Z",
+    "queryText": "SELECT * FROM transactions;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 194.1,
+      "cpuTime": 116.46,
+      "latency": 30.87,
+      "memoryUsed": 19704,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 4,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699433343_p8qcmgphm",
+    "timestamp": "2025-12-25T21:50:33.343Z",
+    "queryText": "SELECT * FROM transactions;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 53.68,
+      "cpuTime": 32.21,
+      "latency": 42.69,
+      "memoryUsed": 173496,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699433342_yir207m5p",
+    "timestamp": "2025-12-25T21:50:33.342Z",
+    "queryText": "db.transactions.find({})",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 53.68,
+      "cpuTime": 32.21,
+      "latency": 42.69,
+      "memoryUsed": 173496,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699391527_07r8mqbp9",
+    "timestamp": "2025-12-25T21:49:51.527Z",
+    "queryText": "SELECT * FROM transactions;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 194.89,
+      "cpuTime": 116.93,
+      "latency": 40.05,
+      "memoryUsed": 35024,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 4,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699391525_rsds5973q",
+    "timestamp": "2025-12-25T21:49:51.525Z",
+    "queryText": "SELECT * FROM transactions;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 194.89,
+      "cpuTime": 116.93,
+      "latency": 40.05,
+      "memoryUsed": 35024,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 4,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699326433_8k5x6xyqu",
+    "timestamp": "2025-12-25T21:48:46.433Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 3.01,
+      "cpuTime": 1.81,
+      "latency": 40.66,
+      "memoryUsed": 0,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699326432_80l27qk8m",
+    "timestamp": "2025-12-25T21:48:46.432Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 3.01,
+      "cpuTime": 1.81,
+      "latency": 40.66,
+      "memoryUsed": 0,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699302413_ejgfy27oo",
+    "timestamp": "2025-12-25T21:48:22.413Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 194.6,
+      "cpuTime": 116.76,
+      "latency": 12.92,
+      "memoryUsed": 31096,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699302412_ppus8uhrh",
+    "timestamp": "2025-12-25T21:48:22.412Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 194.6,
+      "cpuTime": 116.76,
+      "latency": 12.92,
+      "memoryUsed": 31096,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699261243_vteo8jg80",
+    "timestamp": "2025-12-25T21:47:41.243Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 0.09,
+      "cpuTime": 0.06,
+      "latency": 21.25,
+      "memoryUsed": 318712,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699261241_hsx307vow",
+    "timestamp": "2025-12-25T21:47:41.241Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 0.09,
+      "cpuTime": 0.06,
+      "latency": 21.25,
+      "memoryUsed": 318712,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699260850_wbnitcndz",
+    "timestamp": "2025-12-25T21:47:40.850Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 194.75,
+      "cpuTime": 116.85,
+      "latency": 12.97,
+      "memoryUsed": 29344,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699260849_kwgsd1fxu",
+    "timestamp": "2025-12-25T21:47:40.849Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 194.75,
+      "cpuTime": 116.85,
+      "latency": 12.97,
+      "memoryUsed": 29344,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699260264_xzo0gg2os",
+    "timestamp": "2025-12-25T21:47:40.264Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 2.81,
+      "cpuTime": 1.68,
+      "latency": 25.05,
+      "memoryUsed": 179576,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699260263_el2phhrkb",
+    "timestamp": "2025-12-25T21:47:40.263Z",
+    "queryText": "db.accounts.find({})",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 2.81,
+      "cpuTime": 1.68,
+      "latency": 25.05,
+      "memoryUsed": 179576,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699225547_u7o1mdj94",
+    "timestamp": "2025-12-25T21:47:05.547Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 0.06,
+      "cpuTime": 0.04,
+      "latency": 42.16,
+      "memoryUsed": 1688,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699225545_tsrb5545w",
+    "timestamp": "2025-12-25T21:47:05.545Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 0.06,
+      "cpuTime": 0.04,
+      "latency": 42.16,
+      "memoryUsed": 1688,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699225154_508mi71i0",
+    "timestamp": "2025-12-25T21:47:05.154Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 194.14,
+      "cpuTime": 116.48,
+      "latency": 27.78,
+      "memoryUsed": 28728,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699225153_fo6svhg6e",
+    "timestamp": "2025-12-25T21:47:05.153Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 194.14,
+      "cpuTime": 116.48,
+      "latency": 27.78,
+      "memoryUsed": 28728,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699224568_xwh3rykbd",
+    "timestamp": "2025-12-25T21:47:04.568Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 3.94,
+      "cpuTime": 2.36,
+      "latency": 36.7,
+      "memoryUsed": 191232,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699224567_jverqx7wy",
+    "timestamp": "2025-12-25T21:47:04.567Z",
+    "queryText": "db.accounts.find({})",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 3.94,
+      "cpuTime": 2.36,
+      "latency": 36.7,
+      "memoryUsed": 191232,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699216847_4luunc4l4",
+    "timestamp": "2025-12-25T21:46:56.847Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 194.76,
+      "cpuTime": 116.85,
+      "latency": 8,
+      "memoryUsed": 38408,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699216846_4wc34y2j7",
+    "timestamp": "2025-12-25T21:46:56.846Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 194.76,
+      "cpuTime": 116.85,
+      "latency": 8,
+      "memoryUsed": 38408,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699175710_rp5228gc6",
+    "timestamp": "2025-12-25T21:46:15.710Z",
+    "queryText": "SELECT * FROM customers LIMIT 2;",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 0.07,
+      "cpuTime": 0.04,
+      "latency": 32.09,
+      "memoryUsed": 1912,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699175709_vd66sqgq1",
+    "timestamp": "2025-12-25T21:46:15.709Z",
+    "queryText": "SELECT * FROM customers LIMIT 2;",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 0.07,
+      "cpuTime": 0.04,
+      "latency": 32.09,
+      "memoryUsed": 1912,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699175318_2mc06rr97",
+    "timestamp": "2025-12-25T21:46:15.318Z",
+    "queryText": "SELECT * FROM customers LIMIT 2;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 194.34,
+      "cpuTime": 116.6,
+      "latency": 36.39,
+      "memoryUsed": 0,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 2,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699175317_t7jdog4pr",
+    "timestamp": "2025-12-25T21:46:15.317Z",
+    "queryText": "SELECT * FROM customers LIMIT 2;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 194.34,
+      "cpuTime": 116.6,
+      "latency": 36.39,
+      "memoryUsed": 0,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 2,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699174719_hb5eysgwl",
+    "timestamp": "2025-12-25T21:46:14.719Z",
+    "queryText": "SELECT * FROM customers LIMIT 2;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 3.14,
+      "cpuTime": 1.88,
+      "latency": 8.09,
+      "memoryUsed": 208760,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 3,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699174717_0uuafznhe",
+    "timestamp": "2025-12-25T21:46:14.718Z",
+    "queryText": "db.customers.find({}).limit(2)",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 3.14,
+      "cpuTime": 1.88,
+      "latency": 8.09,
+      "memoryUsed": 208760,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 3,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699168637_rv37arfqa",
+    "timestamp": "2025-12-25T21:46:08.637Z",
+    "queryText": "SELECT * FROM accounts WHERE balance > 5000;",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 126.01,
+      "cpuTime": 75.6,
+      "latency": 7.02,
+      "memoryUsed": 445720,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699168636_ji27ddd67",
+    "timestamp": "2025-12-25T21:46:08.636Z",
+    "queryText": "SELECT * FROM accounts WHERE balance > 5000;",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 126.01,
+      "cpuTime": 75.6,
+      "latency": 7.02,
+      "memoryUsed": 445720,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699168120_8uayny0dc",
+    "timestamp": "2025-12-25T21:46:08.120Z",
+    "queryText": "SELECT * FROM accounts WHERE balance > 5000;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 194.97,
+      "cpuTime": 116.98,
+      "latency": 45.62,
+      "memoryUsed": 48400,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 3,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699168118_0ctp7dcg9",
+    "timestamp": "2025-12-25T21:46:08.118Z",
+    "queryText": "SELECT * FROM accounts WHERE balance > 5000;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 194.97,
+      "cpuTime": 116.98,
+      "latency": 45.62,
+      "memoryUsed": 48400,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 3,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699166340_j02jdeej8",
+    "timestamp": "2025-12-25T21:46:06.340Z",
+    "queryText": "SELECT * FROM accounts WHERE balance > 5000;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 4.23,
+      "cpuTime": 2.54,
+      "latency": 18.5,
+      "memoryUsed": 253920,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 3,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699166339_zqrwfit00",
+    "timestamp": "2025-12-25T21:46:06.339Z",
+    "queryText": "db.accounts.find({\"balance\":{\"$gt\":5000}})",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 4.23,
+      "cpuTime": 2.54,
+      "latency": 18.5,
+      "memoryUsed": 253920,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 3,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699094176_3yc5or9km",
+    "timestamp": "2025-12-25T21:44:54.176Z",
+    "queryText": "SELECT * FROM accounts WHERE balance > 5000;",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 0.07,
+      "cpuTime": 0.04,
+      "latency": 35.71,
+      "memoryUsed": 1944,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699094175_ncdaxtes2",
+    "timestamp": "2025-12-25T21:44:54.175Z",
+    "queryText": "SELECT * FROM accounts WHERE balance > 5000;",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 0.07,
+      "cpuTime": 0.04,
+      "latency": 35.71,
+      "memoryUsed": 1944,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699093785_il752a1zs",
+    "timestamp": "2025-12-25T21:44:53.785Z",
+    "queryText": "SELECT * FROM accounts WHERE balance > 5000;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 204.4,
+      "cpuTime": 122.64,
+      "latency": 42.84,
+      "memoryUsed": 0,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 3,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699093784_5io09xgsc",
+    "timestamp": "2025-12-25T21:44:53.784Z",
+    "queryText": "SELECT * FROM accounts WHERE balance > 5000;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 204.4,
+      "cpuTime": 122.64,
+      "latency": 42.84,
+      "memoryUsed": 0,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 3,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699093188_ibxno8ae7",
+    "timestamp": "2025-12-25T21:44:53.188Z",
+    "queryText": "SELECT * FROM accounts WHERE balance > 5000;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 0.11,
+      "cpuTime": 0.07,
+      "latency": 30.5,
+      "memoryUsed": 3576,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766699093187_518lh0p8a",
+    "timestamp": "2025-12-25T21:44:53.187Z",
+    "queryText": "db.accounts.find({\"balance\":{\"$gt\":5000}})",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 0.11,
+      "cpuTime": 0.07,
+      "latency": 30.5,
+      "memoryUsed": 3576,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766699066875_djqxvsmr8",
+    "timestamp": "2025-12-25T21:44:26.875Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 127.3,
+      "cpuTime": 76.38,
+      "latency": 32.79,
+      "memoryUsed": 0,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699066874_avg7tlve7",
+    "timestamp": "2025-12-25T21:44:26.874Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 127.3,
+      "cpuTime": 76.38,
+      "latency": 32.79,
+      "memoryUsed": 0,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699066356_whxmnjnrt",
+    "timestamp": "2025-12-25T21:44:26.356Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 195.12,
+      "cpuTime": 117.07,
+      "latency": 18.3,
+      "memoryUsed": 497256,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699066355_04yk1jbs3",
+    "timestamp": "2025-12-25T21:44:26.355Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 195.12,
+      "cpuTime": 117.07,
+      "latency": 18.3,
+      "memoryUsed": 497256,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699064565_p3i4clhr4",
+    "timestamp": "2025-12-25T21:44:24.565Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 58.24,
+      "cpuTime": 34.94,
+      "latency": 49.38,
+      "memoryUsed": 227800,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766699064563_1s9dzhpdk",
+    "timestamp": "2025-12-25T21:44:24.563Z",
+    "queryText": "db.accounts.find({})",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 58.24,
+      "cpuTime": 34.94,
+      "latency": 49.38,
+      "memoryUsed": 227800,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766698811445_lci94mu11",
+    "timestamp": "2025-12-25T21:40:11.445Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 181.99,
+      "cpuTime": 109.19,
+      "latency": 24.31,
+      "memoryUsed": 471272,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766698811444_2rr85x04g",
+    "timestamp": "2025-12-25T21:40:11.444Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 181.99,
+      "cpuTime": 109.19,
+      "latency": 24.31,
+      "memoryUsed": 471272,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766698810872_sq9z3feh4",
+    "timestamp": "2025-12-25T21:40:10.872Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 194.53,
+      "cpuTime": 116.72,
+      "latency": 7.98,
+      "memoryUsed": 35560,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766698810871_kryi5x9ep",
+    "timestamp": "2025-12-25T21:40:10.871Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 194.53,
+      "cpuTime": 116.72,
+      "latency": 7.98,
+      "memoryUsed": 35560,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766698810286_vhemgmhea",
+    "timestamp": "2025-12-25T21:40:10.286Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 0.26,
+      "cpuTime": 0.15,
+      "latency": 24.68,
+      "memoryUsed": 7256,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766698810285_43v3am9tk",
+    "timestamp": "2025-12-25T21:40:10.285Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 0.26,
+      "cpuTime": 0.15,
+      "latency": 24.68,
+      "memoryUsed": 7256,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766698778079_p6ws3i3lz",
+    "timestamp": "2025-12-25T21:39:38.079Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 194.58,
+      "cpuTime": 116.75,
+      "latency": 9.01,
+      "memoryUsed": 34360,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766698778078_ktira87hv",
+    "timestamp": "2025-12-25T21:39:38.078Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 194.58,
+      "cpuTime": 116.75,
+      "latency": 9.01,
+      "memoryUsed": 34360,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766698730896_xr9p1dqv2",
+    "timestamp": "2025-12-25T21:38:50.896Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 194.74,
+      "cpuTime": 116.84,
+      "latency": 33.16,
+      "memoryUsed": 49960,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766698730892_cj56tu160",
+    "timestamp": "2025-12-25T21:38:50.892Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 194.74,
+      "cpuTime": 116.84,
+      "latency": 33.16,
+      "memoryUsed": 49960,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766698720533_6dc5o41x0",
+    "timestamp": "2025-12-25T21:38:40.533Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 195.17,
+      "cpuTime": 117.1,
+      "latency": 37.36,
+      "memoryUsed": 65672,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766698720532_qch011vlm",
+    "timestamp": "2025-12-25T21:38:40.532Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 195.17,
+      "cpuTime": 117.1,
+      "latency": 37.36,
+      "memoryUsed": 65672,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766698640166_y8trj58cz",
+    "timestamp": "2025-12-25T21:37:20.166Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 0.26,
+      "cpuTime": 0.16,
+      "latency": 33.15,
+      "memoryUsed": 7256,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766698640165_8ln6latnn",
+    "timestamp": "2025-12-25T21:37:20.165Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 0.26,
+      "cpuTime": 0.16,
+      "latency": 33.15,
+      "memoryUsed": 7256,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766698388127_3ue7ejsqo",
+    "timestamp": "2025-12-25T21:33:08.127Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 0.22,
+      "cpuTime": 0.13,
+      "latency": 9.76,
+      "memoryUsed": 7984,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766698388126_j6ibw76tn",
+    "timestamp": "2025-12-25T21:33:08.126Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 0.22,
+      "cpuTime": 0.13,
+      "latency": 9.76,
+      "memoryUsed": 7984,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766698079837_m5u2nfpy0",
+    "timestamp": "2025-12-25T21:27:59.837Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 0.26,
+      "cpuTime": 0.16,
+      "latency": 8.98,
+      "memoryUsed": 7872,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766698079836_mlival22s",
+    "timestamp": "2025-12-25T21:27:59.836Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 0.26,
+      "cpuTime": 0.16,
+      "latency": 8.98,
+      "memoryUsed": 7872,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766697820177_cb8gwsna7",
+    "timestamp": "2025-12-25T21:23:40.177Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 0.63,
+      "cpuTime": 0.38,
+      "latency": 12.61,
+      "memoryUsed": 330848,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766697818593_ex1edw90y",
+    "timestamp": "2025-12-25T21:23:38.593Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 0.63,
+      "cpuTime": 0.38,
+      "latency": 12.61,
+      "memoryUsed": 330848,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766697649853_x8pxjgg4k",
+    "timestamp": "2025-12-25T21:20:49.853Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 0.15,
+      "cpuTime": 0.09,
+      "latency": 23.51,
+      "memoryUsed": 5280,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766697649467_zzhhx9v22",
+    "timestamp": "2025-12-25T21:20:49.467Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 0.15,
+      "cpuTime": 0.09,
+      "latency": 23.51,
+      "memoryUsed": 5280,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766697569362_r7myz23vc",
+    "timestamp": "2025-12-25T21:19:29.362Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 1.31,
+      "cpuTime": 0.79,
+      "latency": 21.01,
+      "memoryUsed": 6440,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766697568937_lxpimaotf",
+    "timestamp": "2025-12-25T21:19:28.937Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 1.31,
+      "cpuTime": 0.79,
+      "latency": 21.01,
+      "memoryUsed": 6440,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766697412113_oq70wvmyk",
+    "timestamp": "2025-12-25T21:16:52.113Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 0.12,
+      "cpuTime": 0.07,
+      "latency": 14.25,
+      "memoryUsed": 0,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766697411713_y36iim0fo",
+    "timestamp": "2025-12-25T21:16:51.713Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 0.12,
+      "cpuTime": 0.07,
+      "latency": 14.25,
+      "memoryUsed": 0,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766697323076_bk8g9h94v",
+    "timestamp": "2025-12-25T21:15:23.076Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 0.09,
+      "cpuTime": 0.05,
+      "latency": 11.2,
+      "memoryUsed": 3560,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766697322677_h1caezi3z",
+    "timestamp": "2025-12-25T21:15:22.677Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 0.09,
+      "cpuTime": 0.05,
+      "latency": 11.2,
+      "memoryUsed": 3560,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766697279747_0pl7s2y41",
+    "timestamp": "2025-12-25T21:14:39.747Z",
+    "queryText": "SELECT * FROM accounts LIMIT 1;",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 150.22,
+      "cpuTime": 90.13,
+      "latency": 37,
+      "memoryUsed": 468408,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766697279348_9w54g5soa",
+    "timestamp": "2025-12-25T21:14:39.348Z",
+    "queryText": "SELECT * FROM accounts LIMIT 1;",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 150.22,
+      "cpuTime": 90.13,
+      "latency": 37,
+      "memoryUsed": 468408,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766697279197_pncnln6dn",
+    "timestamp": "2025-12-25T21:14:39.197Z",
+    "queryText": "SELECT * FROM accounts LIMIT 1;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 198.88,
+      "cpuTime": 119.33,
+      "latency": 38.37,
+      "memoryUsed": 15832,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 1,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766697278794_ksehmz5yq",
+    "timestamp": "2025-12-25T21:14:38.794Z",
+    "queryText": "SELECT * FROM accounts LIMIT 1;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 198.88,
+      "cpuTime": 119.33,
+      "latency": 38.37,
+      "memoryUsed": 15832,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 1,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766697278594_cw2rdiqm3",
+    "timestamp": "2025-12-25T21:14:38.594Z",
+    "queryText": "SELECT * FROM accounts LIMIT 1;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 0.15,
+      "cpuTime": 0.09,
+      "latency": 19.21,
+      "memoryUsed": 6096,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766697278196_17mesh5h6",
+    "timestamp": "2025-12-25T21:14:38.196Z",
+    "queryText": "SELECT * FROM accounts LIMIT 1;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 0.15,
+      "cpuTime": 0.09,
+      "latency": 19.21,
+      "memoryUsed": 6096,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766697270133_dsj899ywi",
+    "timestamp": "2025-12-25T21:14:30.133Z",
+    "queryText": "SELECT * FROM accounts LIMIT 2;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 199.24,
+      "cpuTime": 119.55,
+      "latency": 43.09,
+      "memoryUsed": 306336,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 2,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766697269740_xd7al08ub",
+    "timestamp": "2025-12-25T21:14:29.740Z",
+    "queryText": "SELECT * FROM accounts LIMIT 2;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 199.24,
+      "cpuTime": 119.55,
+      "latency": 43.09,
+      "memoryUsed": 306336,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 2,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766697261233_xpl6s96c1",
+    "timestamp": "2025-12-25T21:14:21.233Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 0.24,
+      "cpuTime": 0.15,
+      "latency": 28.97,
+      "memoryUsed": 10264,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766697259567_nopipftcg",
+    "timestamp": "2025-12-25T21:14:19.567Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 0.24,
+      "cpuTime": 0.15,
+      "latency": 28.97,
+      "memoryUsed": 10264,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766697102475_g0h4rw6iv",
+    "timestamp": "2025-12-25T21:11:42.475Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 0.16,
+      "cpuTime": 0.1,
+      "latency": 21.69,
+      "memoryUsed": 11264,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766697102080_q8e6m9jlz",
+    "timestamp": "2025-12-25T21:11:42.080Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 0.16,
+      "cpuTime": 0.1,
+      "latency": 21.69,
+      "memoryUsed": 11264,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766697007365_7hbw0rpx9",
+    "timestamp": "2025-12-25T21:10:07.365Z",
+    "queryText": "GET account:ACC001",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 0.3,
+      "cpuTime": 0.18,
+      "latency": 52.69,
+      "memoryUsed": 7584,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 1,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766697007364_exsnc1s7w",
+    "timestamp": "2025-12-25T21:10:07.364Z",
+    "queryText": "GET account:ACC001",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 0.3,
+      "cpuTime": 0.18,
+      "latency": 52.69,
+      "memoryUsed": 7584,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 1,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766697007363_ijzzi4ftu",
+    "timestamp": "2025-12-25T21:10:07.363Z",
+    "queryText": "GET account:ACC001",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 1377.13,
+      "cpuTime": 826.28,
+      "latency": 28.63,
+      "memoryUsed": 647800,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "syntax error at or near \"GET\""
+    }
+  },
+  {
+    "id": "query_1766697007362_n1lrimfpy",
+    "timestamp": "2025-12-25T21:10:07.362Z",
+    "queryText": "GET account:ACC001",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 1377.13,
+      "cpuTime": 826.28,
+      "latency": 28.63,
+      "memoryUsed": 647800,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "syntax error at or near \"GET\""
+    }
+  },
+  {
+    "id": "query_1766697005984_l84bkf2zn",
+    "timestamp": "2025-12-25T21:10:05.984Z",
+    "queryText": "GET account:ACC001",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 0.23,
+      "cpuTime": 0.14,
+      "latency": 34.93,
+      "memoryUsed": 9864,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766697005944_5nck7klpc",
+    "timestamp": "2025-12-25T21:10:05.944Z",
+    "queryText": "GET account:ACC001",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 0.23,
+      "cpuTime": 0.14,
+      "latency": 34.93,
+      "memoryUsed": 9864,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766696924007_mhyera9yl",
+    "timestamp": "2025-12-25T21:08:44.007Z",
+    "queryText": "GET account:ACC001",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 7.16,
+      "cpuTime": 4.3,
+      "latency": 12.7,
+      "memoryUsed": 117840,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Redis error: getaddrinfo ENOTFOUND apparent-insect-37639.upstash.io"
+    }
+  },
+  {
+    "id": "query_1766696923995_n40kl4djz",
+    "timestamp": "2025-12-25T21:08:43.995Z",
+    "queryText": "GET account:ACC001",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 7.16,
+      "cpuTime": 4.3,
+      "latency": 12.7,
+      "memoryUsed": 117840,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Redis error: getaddrinfo ENOTFOUND apparent-insect-37639.upstash.io"
+    }
+  },
+  {
+    "id": "query_1766696923987_itaapj4aa",
+    "timestamp": "2025-12-25T21:08:43.987Z",
+    "queryText": "GET account:ACC001",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 195.47,
+      "cpuTime": 117.28,
+      "latency": 28.81,
+      "memoryUsed": 52136,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "syntax error at or near \"GET\""
+    }
+  },
+  {
+    "id": "query_1766696923877_hlfhz5dzh",
+    "timestamp": "2025-12-25T21:08:43.877Z",
+    "queryText": "GET account:ACC001",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 195.47,
+      "cpuTime": 117.28,
+      "latency": 28.81,
+      "memoryUsed": 52136,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "syntax error at or near \"GET\""
+    }
+  },
+  {
+    "id": "query_1766696923680_clmzqh28u",
+    "timestamp": "2025-12-25T21:08:43.680Z",
+    "queryText": "GET account:ACC001",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 0.08,
+      "cpuTime": 0.05,
+      "latency": 33.71,
+      "memoryUsed": 5600,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766696923611_zbmj39j79",
+    "timestamp": "2025-12-25T21:08:43.611Z",
+    "queryText": "GET account:ACC001",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 0.08,
+      "cpuTime": 0.05,
+      "latency": 33.71,
+      "memoryUsed": 5600,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766696915808_xscee70rp",
+    "timestamp": "2025-12-25T21:08:35.808Z",
+    "queryText": "db.accounts.find({})",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 0.11,
+      "cpuTime": 0.07,
+      "latency": 39.9,
+      "memoryUsed": 4136,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Redis query requires a key"
+    }
+  },
+  {
+    "id": "query_1766696915805_elfln67xj",
+    "timestamp": "2025-12-25T21:08:35.805Z",
+    "queryText": "db.accounts.find({})",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 0.11,
+      "cpuTime": 0.07,
+      "latency": 39.9,
+      "memoryUsed": 4136,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Redis query requires a key"
+    }
+  },
+  {
+    "id": "query_1766696915803_u7xw8zgsw",
+    "timestamp": "2025-12-25T21:08:35.803Z",
+    "queryText": "db.accounts.find({})",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 199.81,
+      "cpuTime": 119.88,
+      "latency": 51.86,
+      "memoryUsed": 339560,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "syntax error at or near \"db\""
+    }
+  },
+  {
+    "id": "query_1766696915799_wejhuajjl",
+    "timestamp": "2025-12-25T21:08:35.799Z",
+    "queryText": "db.accounts.find({})",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 199.81,
+      "cpuTime": 119.88,
+      "latency": 51.86,
+      "memoryUsed": 339560,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "syntax error at or near \"db\""
+    }
+  },
+  {
+    "id": "query_1766696915599_c867b6gai",
+    "timestamp": "2025-12-25T21:08:35.599Z",
+    "queryText": "db.accounts.find({})",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 210.79,
+      "cpuTime": 126.48,
+      "latency": 22,
+      "memoryUsed": 635168,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766696915564_hhf8luzf1",
+    "timestamp": "2025-12-25T21:08:35.564Z",
+    "queryText": "db.accounts.find({})",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 210.79,
+      "cpuTime": 126.48,
+      "latency": 22,
+      "memoryUsed": 635168,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766696906815_w83hal6ih",
+    "timestamp": "2025-12-25T21:08:26.815Z",
+    "queryText": "SELECT * FROM accounts LIMIT 2;",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 85.08,
+      "cpuTime": 51.05,
+      "latency": 43.44,
+      "memoryUsed": 464680,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Redis error: getaddrinfo ENOTFOUND apparent-insect-37639.upstash.io"
+    }
+  },
+  {
+    "id": "query_1766696906425_m1dqgjod7",
+    "timestamp": "2025-12-25T21:08:26.425Z",
+    "queryText": "SELECT * FROM accounts LIMIT 2;",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 85.08,
+      "cpuTime": 51.05,
+      "latency": 43.44,
+      "memoryUsed": 464680,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Redis error: getaddrinfo ENOTFOUND apparent-insect-37639.upstash.io"
+    }
+  },
+  {
+    "id": "query_1766696906339_lmr3958pz",
+    "timestamp": "2025-12-25T21:08:26.339Z",
+    "queryText": "SELECT * FROM accounts LIMIT 2;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 196.16,
+      "cpuTime": 117.69,
+      "latency": 32.61,
+      "memoryUsed": 46976,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 2,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766696905948_owivstxx1",
+    "timestamp": "2025-12-25T21:08:25.948Z",
+    "queryText": "SELECT * FROM accounts LIMIT 2;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 196.16,
+      "cpuTime": 117.69,
+      "latency": 32.61,
+      "memoryUsed": 46976,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 2,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766696905751_m2cbvb6nc",
+    "timestamp": "2025-12-25T21:08:25.751Z",
+    "queryText": "SELECT * FROM accounts LIMIT 2;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 0.22,
+      "cpuTime": 0.13,
+      "latency": 47.03,
+      "memoryUsed": 9232,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766696903624_ihhbvehfo",
+    "timestamp": "2025-12-25T21:08:23.624Z",
+    "queryText": "SELECT * FROM accounts LIMIT 2;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 0.22,
+      "cpuTime": 0.13,
+      "latency": 47.03,
+      "memoryUsed": 9232,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766696523545_f7olvjvjh",
+    "timestamp": "2025-12-25T21:02:03.545Z",
+    "queryText": "SELECT * FROM accounts LIMIT 2;",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 28.43,
+      "cpuTime": 17.06,
+      "latency": 30.85,
+      "memoryUsed": 119136,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Redis error: getaddrinfo ENOTFOUND apparent-insect-37639.upstash.io"
+    }
+  },
+  {
+    "id": "query_1766696523156_ej7xhoneh",
+    "timestamp": "2025-12-25T21:02:03.156Z",
+    "queryText": "SELECT * FROM accounts LIMIT 2;",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 28.43,
+      "cpuTime": 17.06,
+      "latency": 30.85,
+      "memoryUsed": 119136,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Redis error: getaddrinfo ENOTFOUND apparent-insect-37639.upstash.io"
+    }
+  },
+  {
+    "id": "query_1766696523127_jzsynfjkz",
+    "timestamp": "2025-12-25T21:02:03.127Z",
+    "queryText": "SELECT * FROM accounts LIMIT 2;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 194.51,
+      "cpuTime": 116.71,
+      "latency": 51.27,
+      "memoryUsed": 22848,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 2,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766696522737_39mibrw8t",
+    "timestamp": "2025-12-25T21:02:02.737Z",
+    "queryText": "SELECT * FROM accounts LIMIT 2;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 194.51,
+      "cpuTime": 116.71,
+      "latency": 51.27,
+      "memoryUsed": 22848,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 2,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766696522542_26q17fkon",
+    "timestamp": "2025-12-25T21:02:02.542Z",
+    "queryText": "SELECT * FROM accounts LIMIT 2;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 0.08,
+      "cpuTime": 0.05,
+      "latency": 33.79,
+      "memoryUsed": 2984,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766696522151_6u7g33adl",
+    "timestamp": "2025-12-25T21:02:02.151Z",
+    "queryText": "SELECT * FROM accounts LIMIT 2;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 0.08,
+      "cpuTime": 0.05,
+      "latency": 33.79,
+      "memoryUsed": 2984,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766696489918_d89ko2ydk",
+    "timestamp": "2025-12-25T21:01:29.918Z",
+    "queryText": "SELECT * FROM accounts LIMIT 2;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 194.46,
+      "cpuTime": 116.68,
+      "latency": 54.84,
+      "memoryUsed": 21312,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 2,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766696489528_v7enq6bhn",
+    "timestamp": "2025-12-25T21:01:29.528Z",
+    "queryText": "SELECT * FROM accounts LIMIT 2;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 194.46,
+      "cpuTime": 116.68,
+      "latency": 54.84,
+      "memoryUsed": 21312,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 2,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766696430380_6mqo6qds6",
+    "timestamp": "2025-12-25T21:00:30.380Z",
+    "queryText": "SELECT id, account_type, balance FROM accounts LIMIT 2;",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 211.26,
+      "cpuTime": 126.76,
+      "latency": 54.37,
+      "memoryUsed": 0,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Redis error: getaddrinfo ENOTFOUND apparent-insect-37639.upstash.io"
+    }
+  },
+  {
+    "id": "query_1766696429989_rjm0etxdj",
+    "timestamp": "2025-12-25T21:00:29.989Z",
+    "queryText": "SELECT id, account_type, balance FROM accounts LIMIT 2;",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 211.26,
+      "cpuTime": 126.76,
+      "latency": 54.37,
+      "memoryUsed": 0,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Redis error: getaddrinfo ENOTFOUND apparent-insect-37639.upstash.io"
+    }
+  },
+  {
+    "id": "query_1766696429778_ipjnvdwaj",
+    "timestamp": "2025-12-25T21:00:29.778Z",
+    "queryText": "SELECT id, account_type, balance FROM accounts LIMIT 2;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 196.22,
+      "cpuTime": 117.73,
+      "latency": 44.93,
+      "memoryUsed": 12744,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 2,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766696429388_xpxc5s4y4",
+    "timestamp": "2025-12-25T21:00:29.388Z",
+    "queryText": "SELECT id, account_type, balance FROM accounts LIMIT 2;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 196.22,
+      "cpuTime": 117.73,
+      "latency": 44.93,
+      "memoryUsed": 12744,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 2,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766696429191_iqqwy2aqo",
+    "timestamp": "2025-12-25T21:00:29.191Z",
+    "queryText": "SELECT id, account_type, balance FROM accounts LIMIT 2;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 0.19,
+      "cpuTime": 0.12,
+      "latency": 39.6,
+      "memoryUsed": 12528,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766696428801_1ceryrzf1",
+    "timestamp": "2025-12-25T21:00:28.801Z",
+    "queryText": "SELECT id, account_type, balance FROM accounts LIMIT 2;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 0.19,
+      "cpuTime": 0.12,
+      "latency": 39.6,
+      "memoryUsed": 12528,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766696290107_qc2hrtqey",
+    "timestamp": "2025-12-25T20:58:10.107Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 172.4,
+      "cpuTime": 103.44,
+      "latency": 37.7,
+      "memoryUsed": 471840,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Redis error: getaddrinfo ENOTFOUND apparent-insect-37639.upstash.io"
+    }
+  },
+  {
+    "id": "query_1766696289718_ue56gybu1",
+    "timestamp": "2025-12-25T20:58:09.718Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 172.4,
+      "cpuTime": 103.44,
+      "latency": 37.7,
+      "memoryUsed": 471840,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Redis error: getaddrinfo ENOTFOUND apparent-insect-37639.upstash.io"
+    }
+  },
+  {
+    "id": "query_1766696289544_ukghe0v85",
+    "timestamp": "2025-12-25T20:58:09.544Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 194.71,
+      "cpuTime": 116.83,
+      "latency": 19.99,
+      "memoryUsed": 60056,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766696289155_jyqujz91v",
+    "timestamp": "2025-12-25T20:58:09.155Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 194.71,
+      "cpuTime": 116.83,
+      "latency": 19.99,
+      "memoryUsed": 60056,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766696288959_h1c1esaeo",
+    "timestamp": "2025-12-25T20:58:08.959Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 0.31,
+      "cpuTime": 0.19,
+      "latency": 16.56,
+      "memoryUsed": 207168,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766696288569_63qgjkvax",
+    "timestamp": "2025-12-25T20:58:08.569Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 0.31,
+      "cpuTime": 0.19,
+      "latency": 16.56,
+      "memoryUsed": 207168,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "Invalid MongoDB query format. Use: db.collection.find({...})"
+    }
+  },
+  {
+    "id": "query_1766696156969_temoya76a",
+    "timestamp": "2025-12-25T20:55:56.969Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 195.87,
+      "cpuTime": 117.52,
+      "latency": 15.97,
+      "memoryUsed": 327352,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766696156579_ghu9am18j",
+    "timestamp": "2025-12-25T20:55:56.579Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 195.87,
+      "cpuTime": 117.52,
+      "latency": 15.97,
+      "memoryUsed": 327352,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766696134879_0f7juzcve",
+    "timestamp": "2025-12-25T20:55:34.879Z",
+    "queryText": "SELECT COUNT(*) as count FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 1926.48,
+      "cpuTime": 1155.89,
+      "latency": 6.58,
+      "memoryUsed": 968824,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 1,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766696134450_5rguopfmg",
+    "timestamp": "2025-12-25T20:55:34.450Z",
+    "queryText": "SELECT COUNT(*) as count FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 1926.48,
+      "cpuTime": 1155.89,
+      "latency": 6.58,
+      "memoryUsed": 968824,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 1,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766695692053_t178gd7ex",
+    "timestamp": "2025-12-25T20:48:12.053Z",
+    "queryText": "SELECT COUNT(*) as count FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 194.4,
+      "cpuTime": 116.64,
+      "latency": 30.98,
+      "memoryUsed": 18560,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 1,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766695691663_1rkyqxsh5",
+    "timestamp": "2025-12-25T20:48:11.663Z",
+    "queryText": "SELECT COUNT(*) as count FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 194.4,
+      "cpuTime": 116.64,
+      "latency": 30.98,
+      "memoryUsed": 18560,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 1,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766695678966_iapt4olgr",
+    "timestamp": "2025-12-25T20:47:58.966Z",
+    "queryText": "SELECT * FROM accounts LIMIT 2;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 199.05,
+      "cpuTime": 119.43,
+      "latency": 6.43,
+      "memoryUsed": 25960,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 2,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766695678576_u4vuo3dgh",
+    "timestamp": "2025-12-25T20:47:58.577Z",
+    "queryText": "SELECT * FROM accounts LIMIT 2;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 199.05,
+      "cpuTime": 119.43,
+      "latency": 6.43,
+      "memoryUsed": 25960,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 2,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766695671794_mbqixquz4",
+    "timestamp": "2025-12-25T20:47:51.794Z",
+    "queryText": "SELECT * FROM accounts LIMIT 2;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 196.5,
+      "cpuTime": 117.9,
+      "latency": 47.92,
+      "memoryUsed": 58344,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 2,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766695671403_773reblyo",
+    "timestamp": "2025-12-25T20:47:51.403Z",
+    "queryText": "SELECT * FROM accounts LIMIT 2;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 196.5,
+      "cpuTime": 117.9,
+      "latency": 47.92,
+      "memoryUsed": 58344,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 2,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766695633670_mn49qdwy0",
+    "timestamp": "2025-12-25T20:47:13.670Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 1916.18,
+      "cpuTime": 1149.71,
+      "latency": 37.96,
+      "memoryUsed": 994552,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766695633228_a7cnleiaa",
+    "timestamp": "2025-12-25T20:47:13.228Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 1916.18,
+      "cpuTime": 1149.71,
+      "latency": 37.96,
+      "memoryUsed": 994552,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766695391586_24r5vcqgp",
+    "timestamp": "2025-12-25T20:43:11.586Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 0.39,
+      "cpuTime": 0.23,
+      "latency": 15.87,
+      "memoryUsed": 22024,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "PostgreSQL not connected"
+    }
+  },
+  {
+    "id": "query_1766695391584_cqvvplo5z",
+    "timestamp": "2025-12-25T20:43:11.584Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 0.39,
+      "cpuTime": 0.23,
+      "latency": 15.87,
+      "memoryUsed": 22024,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "PostgreSQL not connected"
+    }
+  },
+  {
+    "id": "query_1766695352601_1gmawz5fd",
+    "timestamp": "2025-12-25T20:42:32.601Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 1.32,
+      "cpuTime": 0.79,
+      "latency": 16.6,
+      "memoryUsed": 113568,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "PostgreSQL not connected"
+    }
+  },
+  {
+    "id": "query_1766695352600_6zs61zwpb",
+    "timestamp": "2025-12-25T20:42:32.600Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 1.32,
+      "cpuTime": 0.79,
+      "latency": 16.6,
+      "memoryUsed": 113568,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "PostgreSQL not connected"
+    }
+  },
+  {
+    "id": "query_1766694104354_k9vwwnx2e",
+    "timestamp": "2025-12-25T20:21:44.354Z",
+    "queryText": "SELECT * FROM accounts LIMIT 3;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 0.29,
+      "cpuTime": 0.18,
+      "latency": 49.57,
+      "memoryUsed": 7280,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "PostgreSQL not connected"
+    }
+  },
+  {
+    "id": "query_1766694104353_h8y01449m",
+    "timestamp": "2025-12-25T20:21:44.353Z",
+    "queryText": "SELECT * FROM accounts LIMIT 3;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 0.29,
+      "cpuTime": 0.18,
+      "latency": 49.57,
+      "memoryUsed": 7280,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "PostgreSQL not connected"
+    }
+  },
+  {
+    "id": "query_1766694095904_h732aiixv",
+    "timestamp": "2025-12-25T20:21:35.904Z",
+    "queryText": "SELECT * FROM accounts LIMIT 3;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 1.45,
+      "cpuTime": 0.87,
+      "latency": 9.74,
+      "memoryUsed": 23944,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "PostgreSQL not connected"
+    }
+  },
+  {
+    "id": "query_1766694095901_o6n64g103",
+    "timestamp": "2025-12-25T20:21:35.901Z",
+    "queryText": "SELECT * FROM accounts LIMIT 3;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 1.45,
+      "cpuTime": 0.87,
+      "latency": 9.74,
+      "memoryUsed": 23944,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": false,
+      "error": "PostgreSQL not connected"
+    }
+  },
+  {
+    "id": "query_1766723939089_bk6myk8yd",
+    "timestamp": "2025-12-26T04:38:59.089Z",
+    "queryText": "db.accounts.find({})",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 20.13,
+      "cpuTime": 12.08,
+      "latency": 49.51,
+      "memoryUsed": 216856,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766723939090_ainwwf06j",
+    "timestamp": "2025-12-26T04:38:59.090Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "mongo",
+    "metrics": {
+      "executionTime": 20.13,
+      "cpuTime": 12.08,
+      "latency": 49.51,
+      "memoryUsed": 216856,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766723939677_ybw8de553",
+    "timestamp": "2025-12-26T04:38:59.677Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 193.35,
+      "cpuTime": 116.01,
+      "latency": 35.14,
+      "memoryUsed": 41064,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766723939678_dm5ga2itd",
+    "timestamp": "2025-12-26T04:38:59.678Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 193.35,
+      "cpuTime": 116.01,
+      "latency": 35.14,
+      "memoryUsed": 41064,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766723940159_yvvf69ppc",
+    "timestamp": "2025-12-26T04:39:00.159Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 94.02,
+      "cpuTime": 56.41,
+      "latency": 42.04,
+      "memoryUsed": 469016,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766723940162_8blp1bgvz",
+    "timestamp": "2025-12-26T04:39:00.162Z",
+    "queryText": "SELECT * FROM accounts;",
+    "database": "redis",
+    "metrics": {
+      "executionTime": 94.02,
+      "cpuTime": 56.41,
+      "latency": 42.04,
+      "memoryUsed": 469016,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 0,
+      "success": true,
+      "error": null
+    }
+  }
+]
