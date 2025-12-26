@@ -1,5 +1,41 @@
 [
   {
+    "id": "query_1766730655318_d5twxjhle",
+    "timestamp": "2025-12-26T06:30:55.318Z",
+    "queryText": "select * from accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 202.23,
+      "cpuTime": 121.34,
+      "latency": 9.39,
+      "memoryUsed": 66592,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
+    "id": "query_1766730655316_toj2wyjkb",
+    "timestamp": "2025-12-26T06:30:55.316Z",
+    "queryText": "select * from accounts;",
+    "database": "postgres",
+    "metrics": {
+      "executionTime": 202.23,
+      "cpuTime": 121.34,
+      "latency": 9.39,
+      "memoryUsed": 66592,
+      "rowsAffected": 0
+    },
+    "result": {
+      "rowCount": 5,
+      "success": true,
+      "error": null
+    }
+  },
+  {
     "id": "query_1766726690128_0ogrioqgs",
     "timestamp": "2025-12-26T05:24:50.128Z",
     "queryText": "SELECT * FROM accounts;",
@@ -3204,15 +3240,15 @@
     }
   },
   {
-    "id": "query_1766730655316_toj2wyjkb",
-    "timestamp": "2025-12-26T06:30:55.316Z",
+    "id": "query_1766733261209_5pwc39g37",
+    "timestamp": "2025-12-26T07:14:21.209Z",
     "queryText": "select * from accounts;",
     "database": "postgres",
     "metrics": {
-      "executionTime": 202.23,
-      "cpuTime": 121.34,
-      "latency": 9.39,
-      "memoryUsed": 66592,
+      "executionTime": 207.37,
+      "cpuTime": 124.42,
+      "latency": 53.27,
+      "memoryUsed": 68456,
       "rowsAffected": 0
     },
     "result": {
@@ -3222,15 +3258,15 @@
     }
   },
   {
-    "id": "query_1766730655318_d5twxjhle",
-    "timestamp": "2025-12-26T06:30:55.318Z",
+    "id": "query_1766733261212_rlbrsnji9",
+    "timestamp": "2025-12-26T07:14:21.213Z",
     "queryText": "select * from accounts;",
     "database": "postgres",
     "metrics": {
-      "executionTime": 202.23,
-      "cpuTime": 121.34,
-      "latency": 9.39,
-      "memoryUsed": 66592,
+      "executionTime": 207.37,
+      "cpuTime": 124.42,
+      "latency": 53.27,
+      "memoryUsed": 68456,
       "rowsAffected": 0
     },
     "result": {
